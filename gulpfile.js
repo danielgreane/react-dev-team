@@ -14,6 +14,14 @@ var shell = require('gulp-shell');
 var glob = require('glob');
 var livereload = require('gulp-livereload');
 var jasminePhantomJs = require('gulp-jasmine2-phantomjs');
+var liveserver = require('live-server');
+var stylus = require('gulp-stylus');
+var jeet = require('jeet');
+var rupture = require('rupture');
+var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer = require('gulp-autoprefixer');
+var nib = require('nib');
+var to5 = require('gulp-6to5');
 
 // External dependencies you do not want to rebundle while developing,
 // but include in your application deployment
@@ -123,46 +131,59 @@ var browserifyTask = function (options) {
   
 }
 
-var cssTask = function (options) {
-    if (options.development) {
-      var run = function () {
-        console.log(arguments);
-        var start = new Date();
-        console.log('Building CSS bundle');
-        gulp.src(options.src)
-          .pipe(concat('main.css'))
-          .pipe(gulp.dest(options.dest))
-          .pipe(notify(function () {
-            console.log('CSS bundle built in ' + (Date.now() - start) + 'ms');
-          }));
-      };
-      run();
-      gulp.watch(options.src, run);
-    } else {
+// compile styles
+var stylusTask = function(options) {
+  if (options.development) {
+    console.log('Building Stylus bundle');
+    var run = function() {
       gulp.src(options.src)
+        .pipe(sourcemaps.init())
+        .pipe(stylus({ 
+            use: [nib(), jeet(), rupture()], 
+            linenos: true
+          }))
+        .pipe(sourcemaps.write())
+        .pipe(autoprefixer())
         .pipe(concat('main.css'))
-        .pipe(cssmin())
-        .pipe(gulp.dest(options.dest));   
-    }
+        .pipe(gulp.dest(options.dest));
+    };
+    run();
+    gulp.watch(options.src, run);
+  } else {
+    gulp.src(options.src)
+      .pipe(stylus({ 
+          use: [nib(), jeet(), rupture()], 
+        }))
+      .pipe(autoprefixer())
+      .pipe(concat('styles.css'))
+      .pipe(cssmin())
+      .pipe(gulp.dest(options.dest));
+  }
+
 }
 
-// Starts our development workflow
+
+/* Task: Development workflow */
 gulp.task('default', function () {
 
   browserifyTask({
     development: true,
-    src: './app/main.js',
+    src: './app/scripts/main.js',
     dest: './build'
   });
   
-  cssTask({
+  stylusTask({
     development: true,
-    src: './styles/**/*.css',
+    src: ['./app/styles/**/*.styl', '!./app/styles/**/_*.styl'],
     dest: './build'
   });
 
+  liveserver.start(8080, 'build', true);
+
 });
 
+
+/* Task: test */
 gulp.task('deploy', function () {
 
   browserifyTask({
@@ -171,14 +192,15 @@ gulp.task('deploy', function () {
     dest: './dist'
   });
   
-  cssTask({
+  stylusTask({
     development: false,
-    src: './styles/**/*.css',
+    src: ['./app/stylus/**/*.styl', '!./app/stylus/**/_*.styl'],
     dest: './dist'
   });
-
 });
 
+
+/* Task: test */
 gulp.task('test', function () {
     return gulp.src('./build/testrunner-phantomjs.html').pipe(jasminePhantomJs());
 });
