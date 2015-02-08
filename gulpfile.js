@@ -22,6 +22,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var nib = require('nib');
 var to5 = require('gulp-6to5');
+var plumber = require('gulp-plumber');
 
 // External dependencies you do not want to rebundle while developing,
 // but include in your application deployment
@@ -57,7 +58,6 @@ var browserifyTask = function (options) {
       .pipe(source('main.js'))
       .pipe(gulpif(!options.development, streamify(uglify())))
       .pipe(gulp.dest(options.dest))
-      .pipe(gulpif(options.development, livereload()))
       .pipe(notify(function () {
         console.log('APP bundle built in ' + (Date.now() - start) + 'ms');
       }));
@@ -94,7 +94,6 @@ var browserifyTask = function (options) {
       .on('error', gutil.log)
 	      .pipe(source('specs.js'))
 	      .pipe(gulp.dest(options.dest))
-	      .pipe(livereload())
 	      .pipe(notify(function () {
 	        console.log('TEST bundle built in ' + (Date.now() - start) + 'ms');
 	      }));
@@ -137,18 +136,19 @@ var stylusTask = function(options) {
     console.log('Building Stylus bundle');
     var run = function() {
       gulp.src(options.src)
+        .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(stylus({ 
             use: [nib(), jeet(), rupture()], 
             linenos: true
           }))
-        .pipe(sourcemaps.write())
         .pipe(autoprefixer())
+        .pipe(sourcemaps.write('.'))
         .pipe(concat('main.css'))
         .pipe(gulp.dest(options.dest));
     };
     run();
-    gulp.watch(options.src, run);
+    gulp.watch(options.watch, run);
   } else {
     gulp.src(options.src)
       .pipe(stylus({ 
@@ -174,7 +174,8 @@ gulp.task('default', function () {
   
   stylusTask({
     development: true,
-    src: ['./app/styles/**/*.styl', '!./app/styles/**/_*.styl'],
+    src: ['./app/styles/core.styl'],
+    watch: ['./app/styles/**/*.styl'],
     dest: './build'
   });
 
