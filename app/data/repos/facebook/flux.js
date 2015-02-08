@@ -62,7 +62,7 @@ module.exports = {
   "labels_url": "https://api.github.com/repos/facebook/flux/labels{/name}",
   "releases_url": "https://api.github.com/repos/facebook/flux/releases{/id}",
   "created_at": "2014-07-20T23:33:08Z",
-  "updated_at": "2015-02-05T18:25:12Z",
+  "updated_at": "2015-02-07T14:48:57Z",
   "pushed_at": "2015-02-04T06:14:05Z",
   "git_url": "git://github.com/facebook/flux.git",
   "ssh_url": "git@github.com:facebook/flux.git",
@@ -70,19 +70,19 @@ module.exports = {
   "svn_url": "https://github.com/facebook/flux",
   "homepage": "http://facebook.github.io/flux/",
   "size": 2049,
-  "stargazers_count": 4251,
-  "watchers_count": 4251,
+  "stargazers_count": 4295,
+  "watchers_count": 4295,
   "language": "JavaScript",
   "has_issues": true,
   "has_downloads": true,
   "has_wiki": true,
   "has_pages": true,
-  "forks_count": 515,
+  "forks_count": 524,
   "mirror_url": null,
   "open_issues_count": 30,
-  "forks": 515,
+  "forks": 524,
   "open_issues": 30,
-  "watchers": 4251,
+  "watchers": 4295,
   "default_branch": "master",
   "organization": {
     "login": "facebook",
@@ -103,6 +103,6 @@ module.exports = {
     "type": "Organization",
     "site_admin": false
   },
-  "network_count": 515,
-  "subscribers_count": 276
+  "network_count": 524,
+  "subscribers_count": 279
 }

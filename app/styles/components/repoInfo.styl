@@ -1,12 +1,30 @@
 .repoInfo
+	background saturate($color1, 100)
+	padding-left 5em
+	overflow hidden
+	position relative
+	border 0.15em solid #111
+	border-radius 2.5em
+	border-bottom-right-radius 0em
+	border-bottom-left-radius 0em
 	> img
-		max-width 2.5em
-		margin-right 1em
-		float left
+		width 4.5em
+		position absolute
+		left 0
+		top 0
+		border-top-right-radius 2em
+		border-bottom-right-radius 2em
 	> h2
+		margin-top 0.2em
 		font-size 2rem
-		> span
-			display inline-block
-			font-size 0.7em
-			padding-left 0.5em
-			font-style italic
+		padding-bottom 0
+		margin-bottom 0
+	> span
+		display inline-block
+		margin-top -0.2em
+		margin-bottom 0.4em
+		font-size 1em
+		font-weight bold
+		font-style italic
+		color darken($color4, 80%)
+		font-family 'Open Sans'

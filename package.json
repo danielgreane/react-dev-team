@@ -32,7 +32,8 @@
     "nib": "^1.1.0",
     "install": "^0.1.8",
     "gulp-6to5": "^3.0.0",
-    "npm": "^2.4.1"
+    "npm": "^2.4.1",
+    "gulp-plumber": "^0.6.6"
   },
   "dependencies": {
     "flux-react": "^2.6.0",
@@ -44,7 +45,12 @@
   },
   "browserify": {
     "transform": [
-      ["reactify", {"es6": true}]
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
     ]
   }
 }

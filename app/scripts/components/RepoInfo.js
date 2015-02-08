@@ -7,10 +7,10 @@ var RepoInfo = React.createClass({
     return (
       <div className="repoInfo">
         <img src={ this.props.owner.avatar_url } />
-		<h2>
-			<strong>{ this.props.full_name }</strong>
-			<span>({ this.props.open_issues_count } open issues)</span>
-		</h2>
+    		<h2>
+    			<strong>{ this.props.full_name }</strong>
+    		</h2>
+        <span>{ this.props.commit_count } commits today</span>
       </div>
     );
   }

@@ -1,5 +1,14 @@
+_getTranslateX(a,b)
+	{(a * b + 5) %}
+
 .repo
-	padding-right 0.2em
-	border-right 3px solid darkgreen
-	box-shadow 5px 5px 13px #111
-	
+	position absolute
+	col(1/4, gutter:1)
+	+above(100em)
+		col(1/5, gutter:1)
+	display block
+	min-height 100%
+	transition all 1s ease-out
+	for i in (1..50)
+		&:nth-of-type({i})
+			transform translateX(_getTranslateX(i - 1, 105))

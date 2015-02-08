@@ -1,18 +1,76 @@
-@import 'rupture'
+_getListHeight(a,b)
+	{(a * b - 50) %}
 
 .commit
-	position relative
-	width 33%
+	position absolute
+	box-sizing border-box
+	top 0
+	left 0
+	width 100%
 	padding 1em
 	margin-bottom 1.25em
-	box-shadow 2px 5px 5px #333
-	background white
+	height 10em
+	overflow hidden
+	border-bottom-right-radius 0em
+	box-shadow 2px 5px 5px rgba(#333, 0.3)
+	background-color white
 	font-size 1rem
-	border 2px solid #111
+	border 0.15em solid #111
+	transition all 1s ease-out
+	animation fadeIn 1s ease-in forwards
+	animation-iteration-count 1
+	
+	for i in (0..100)
+		&:nth-of-type({i})
+			transform translateY(_getListHeight(i - 1, 110))
+			
+	/*for i in (100..0)
+		color = saturate($color1, 100 - i)
+		&[data-visibility=\"{i}\"]
+			background-color color*/
+			
+
+	color = saturate($color1, 100)
+	&:nth-of-type(2)
+		background-color color
+	&:nth-of-type(3)
+		background-color lighten(color, 20%)
+	&:nth-of-type(4)
+		background-color lighten(color, 40%)
+	&:nth-of-type(5)
+		background-color lighten(color, 60%)
+	&:nth-of-type(6)
+		background-color lighten(color, 80%)
+
 	> strong
 		display block
-		text-decoration underline
+		float left
+		width 100%
+		margin-top 0.5em
+		color darken($color1, 90%)
+		font-style italic
+		font-family 'Open Sans'
 	> span
+		z-index 1
 		position absolute
-		right 1em
-		bottom 1em
+		bottom 0.5em
+		right 0.5em
+		font-family 'Open Sans'
+		font-size 0.8em
+	&:after
+		z-index 0
+		content ''
+		position absolute
+		display block
+		bottom 0
+		left 0
+		width 100%
+		height 2.5em
+
+
+
+@keyframes fadeIn
+	from
+		opacity 0
+	to 
+		opacity 1
