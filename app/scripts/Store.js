@@ -15,8 +15,8 @@ module.exports = flux.createStore({
   /* Field: Sample data structure to build */
   repos: [],
 
-  /* Field: top 10 comitters*/
-  committers: [],
+  /* Field: Committers ordered by number of commits*/
+  authors: [],
 
   /* Actions: Possible actions that can be triggered 
      by a component or service */
@@ -67,7 +67,39 @@ module.exports = flux.createStore({
 
   /* Helper: Calculate top-committer list & broadcase */
   _calculateTopCommitters: function() {
-    // TODO: calculate top list
+    var authors = {};
+
+    // 1. Count all authors
+    _.each(this.repos, function(repo) {
+      _.each(repo.commits, function(commit) {
+        if ('author' in commit && commit.author) {
+          if (commit.author.id in authors) {
+            authors[ commit.author.id ].count++;
+          } else {
+            authors[ commit.author.id ] = {
+              count: 1,
+              data: commit.author
+            };
+          }
+        }
+      }.bind(this));
+    }.bind(this));
+
+    // 2. Attach totals to the global store variable
+    _.each(authors, function(author) {
+      this.authors.push(author);
+    }.bind(this));
+
+    // 3. Sort authors by the count we just gave it
+    this.authors.sort(function(a, b) {
+      if (a.count > b.count)
+        return -1;
+      if (a.count < b.count)
+        return 1;
+      return 0;
+    });
+
+    // 4. Broadcast the update to components
     this.emit(events.TOP_COMMITTERS_REFRESHED);
   },
 
@@ -107,7 +139,16 @@ module.exports = flux.createStore({
     },
 
     getRepoById: function(id) {
-      return this._getRepoByKey('id', id);
+      return _.findWhere(this.repos, {id: id});
+    },
+
+    getRepoByName: function(name) {
+      return _.findWhere(this.repos, {id: id});
+    },
+
+    getCommits: function(id) {
+      var repo = this.exports.getRepoById(id);
+      return (repo ? repo.commits : undefined);
     },
 
     getTopComitters: function() {
