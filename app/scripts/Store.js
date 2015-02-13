@@ -2,6 +2,7 @@ var flux = require('flux-react');
 var actions = require('./actions');
 var events = require('./events');
 var config = require('./config');
+var GitHubService = require('./GitHubService');
 
 var _ = require('underscore');
 var $ = require('zepto-browserify').$;
@@ -26,6 +27,8 @@ module.exports = flux.createStore({
     actions.refreshCommits
   ],
 
+  _dataAccessComponent: null,
+
   /* Action: Start the store */
   init: function() {
     this._buildTestRepos();
@@ -37,11 +40,22 @@ module.exports = flux.createStore({
     setTimeout(this._addTestCommits.bind(this), 3000);
     setTimeout(this._doTestReverse.bind(this), 4500);
     setTimeout(this._orderReposByLastCommit.bind(this), 6000);
+
+    //console.log(this._dataAccessComponent.name);
   },
 
   /* Action: Fetch through intiial list of repos  */
   fetchRepos: function() {
     // TODO: fetch repos from Github service and fill with commits
+
+    /*
+    GitHubService.getRepo('facebook/flux').then(e => {
+      e.commits = require('../data/repos/facebook/flux/commits' );
+      this.repos.push(e);
+      this.emit(events.REPOS_REFRESHED);
+    });
+    */
+
     this.emit(events.REPOS_REFRESHED);
   },
 
@@ -153,6 +167,10 @@ module.exports = flux.createStore({
 
     getTopComitters: function() {
       return this.comitters;
+    },
+
+    setDataAccessComponent: function(dataAccessComponent){
+      this._dataAccessComponent = dataAccessComponent;
     }
 
   }
