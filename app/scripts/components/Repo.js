@@ -39,12 +39,12 @@ var Repo = React.createClass({
     return (
       <div className="repo">
     		<RepoInfo { ...this.props } commit_count={ this.props.commits.length } />
-        { this._renderCommit() }
+        { this._renderCommits() }
       </div>
     );
   },
 
-  _renderCommit: function() {
+  _renderCommits: function() {
     var opacity;
     return this.props.commits.map(function(commit, i) {
       opacity = i / this.props.commits.length;

@@ -4,5 +4,6 @@ var flux = require('flux-react');
 module.exports = flux.createActions([
 	'init',
   'fetchRepos',
-  'refreshCommits'
+  'refreshCommits',
+  'displayCommit'
 ]);

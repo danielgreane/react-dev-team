@@ -1,5 +1,5 @@
 _getListHeight(a,b)
-	{(a * b - 50) %}
+	{(a * b + 10) %}
 
 .commit
 	position absolute
@@ -12,7 +12,7 @@ _getListHeight(a,b)
 	height 10em
 	overflow hidden
 	border-bottom-right-radius 0em
-	box-shadow 2px 5px 5px rgba(#333, 0.3)
+	/*box-shadow 2px 5px 5px rgba(#333, 0.3)*/
 	background-color white
 	font-size 1rem
 	border 0.15em solid #111
@@ -24,23 +24,17 @@ _getListHeight(a,b)
 		&:nth-of-type({i})
 			transform translateY(_getListHeight(i - 1, 110))
 			
-	/*for i in (100..0)
-		color = saturate($color1, 100 - i)
-		&[data-visibility=\"{i}\"]
-			background-color color*/
-			
 
-	color = saturate($color1, 100)
 	&:nth-of-type(2)
-		background-color color
+		background-color $color1
 	&:nth-of-type(3)
-		background-color lighten(color, 20%)
+		background-color lighten($color1, 20%)
 	&:nth-of-type(4)
-		background-color lighten(color, 40%)
+		background-color lighten($color1, 40%)
 	&:nth-of-type(5)
-		background-color lighten(color, 60%)
+		background-color lighten($color1, 60%)
 	&:nth-of-type(6)
-		background-color lighten(color, 80%)
+		background-color lighten($color1, 80%)
 
 	> strong
 		display block
@@ -50,6 +44,7 @@ _getListHeight(a,b)
 		color darken($color1, 90%)
 		font-style italic
 		font-family 'Open Sans'
+		font-weight normal
 	> span
 		z-index 1
 		position absolute

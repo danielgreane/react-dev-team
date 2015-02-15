@@ -2,6 +2,7 @@
 var React = require('react');
 var Commit = require('./Commit');
 var Repo = require('./Repo');
+var Header = require('./Header');
 var actions = require('./../actions');
 var events = require('../events');
 var Store = require('./../Store');
@@ -34,7 +35,8 @@ var App = React.createClass({
 
 	render: function() {
 		return (
-			<div>
+			<div className="App">
+				<Header />
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
