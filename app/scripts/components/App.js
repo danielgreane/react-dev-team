@@ -4,6 +4,7 @@ var Commit = require('./Commit');
 var Repo = require('./Repo');
 var Header = require('./Header');
 var WidgetToggle = require('./WidgetToggle');
+var TopCommitters = require('./widgets/TopCommitters');
 
 var actions = require('./../actions');
 var events = require('../events');
@@ -42,6 +43,11 @@ var App = React.createClass({
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
+
+				<div className="widgets">
+					<TopCommitters number="4" />
+				</div>
+
       	<footer className="footer">
       		<label>Show Widgets: </label>
       		<WidgetToggle name="Top Committers" />

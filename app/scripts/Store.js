@@ -137,6 +137,7 @@ module.exports = flux.createStore({
     }.bind(this));
 
     // 2. Attach totals to the global store variable
+    this.authors = [];
     _.each(authors, function(author) {
       this.authors.push(author);
     }.bind(this));
@@ -206,8 +207,8 @@ module.exports = flux.createStore({
       return (repo ? repo.commits : undefined);
     },
 
-    getTopComitters: function() {
-      return this.comitters;
+    getTopCommitters: function() {
+      return this.authors;
     },
 
     setDataAccessComponent: function(dataAccessComponent){

@@ -1,0 +1,36 @@
+.widgets
+	position fixed
+	width 100%
+	bottom 3.5em
+	
+	
+
+.widget
+	col(1/2)
+	min-height 4em
+	padding 0.5em 1em
+	box-sizing border-box
+	background-color rgba(darken(complement($color1), 50), 0.95)
+	color white
+	h2
+		font-family 'Open Sans'
+	&--topCommitters
+		&__entry
+			position relative
+			float left
+			display inline-block
+			width 50%
+			padding-left 3.5em
+			box-sizing border-box
+			min-height 6em
+			> label
+				position absolute
+				top 0
+				left 0
+				font-size 2.5em
+				&:before
+					content '#'
+			> span
+				line-height 2.6em
+				padding-left 1em
+				
