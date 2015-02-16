@@ -3,6 +3,8 @@ var React = require('react');
 var Commit = require('./Commit');
 var Repo = require('./Repo');
 var Header = require('./Header');
+var WidgetToggle = require('./WidgetToggle');
+
 var actions = require('./../actions');
 var events = require('../events');
 var Store = require('./../Store');
@@ -40,6 +42,12 @@ var App = React.createClass({
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
+      	<footer>
+      		<WidgetToggle name="Top Committers" />
+      		<WidgetToggle name="Top Repos" />
+      		<WidgetToggle name="Live Commit Stream" />
+      		<WidgetToggle name="Test 1" />
+      	</footer>
       </div>
 		);
 	}
