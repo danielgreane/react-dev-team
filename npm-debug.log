@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Users\\danielg\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'react-font-awesome' ]
+2 info using npm@2.3.0
+3 info using node@v0.10.30
+4 warn package.json flux-react-boilerplate@3.0.0 No repository field.
+5 silly cache add args [ 'react-font-awesome', null ]
+6 verbose cache add spec react-font-awesome
+7 silly cache add parsed spec { raw: 'react-font-awesome',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'react-font-awesome',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed react-font-awesome@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'react-font-awesome', range: '*', hasData: false }
+12 silly mapToRegistry name react-font-awesome
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/react-font-awesome
+16 verbose addNameRange registry:https://registry.npmjs.org/react-font-awesome not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/react-font-awesome
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 16:23:30
+20 verbose request id 6a2c131895c0f7e8
+21 http request GET https://registry.npmjs.org/react-font-awesome
+22 http 200 https://registry.npmjs.org/react-font-awesome
+23 silly get cb [ 200,
+23 silly get   { date: 'Mon, 16 Feb 2015 16:24:58 GMT',
+23 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"A7AR1WPRTHU8EKFEVPIZ6D8DG"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '5095',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     'x-served-by': 'cache-fra1236-FRA',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1424103897.676603,VS0,VE749',
+23 silly get     vary: 'Accept',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'react-font-awesome', range: '*', hasData: true }
+25 silly addNameRange versions [ 'react-font-awesome', [ '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+26 verbose addNamed react-font-awesome@1.0.3
+27 silly addNamed semver.valid 1.0.3
+28 silly addNamed semver.validRange 1.0.3
+29 silly mapToRegistry name react-font-awesome
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/react-font-awesome
+33 verbose addRemoteTarball https://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz',
+34 verbose addRemoteTarball   'c4c67cc0038c2288d35f02d0a952d41ece2a16e0' ]
+35 info retry fetch attempt 1 at 16:23:31
+36 info attempt registry request try #1 at 16:23:31
+37 http fetch GET https://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz
+38 http fetch 200 https://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz
+39 silly fetchAndShaCheck shasum c4c67cc0038c2288d35f02d0a952d41ece2a16e0
+40 verbose addTmpTarball C:\Users\danielg\AppData\Local\Temp\npm-21740-042b1780\registry.npmjs.org\react-font-awesome\-\react-font-awesome-1.0.3.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for react-font-awesome@1.0.3
+42 silly cache afterAdd react-font-awesome@1.0.3
+43 verbose afterAdd C:\Users\danielg\AppData\Roaming\npm-cache\react-font-awesome\1.0.3\package\package.json not in flight; writing
+44 verbose afterAdd C:\Users\danielg\AppData\Roaming\npm-cache\react-font-awesome\1.0.3\package\package.json written
+45 silly install resolved [ { name: 'react-font-awesome',
+45 silly install resolved     version: '1.0.3',
+45 silly install resolved     description: 'React components for awesome work with FontAwesome',
+45 silly install resolved     main: 'index.js',
+45 silly install resolved     scripts: { test: 'gulp test' },
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git://github.com/Laiff/react-font-awesome.git' },
+45 silly install resolved     keywords:
+45 silly install resolved      [ 'react',
+45 silly install resolved        'font',
+45 silly install resolved        'font-awesome',
+45 silly install resolved        'components',
+45 silly install resolved        'icon',
+45 silly install resolved        'react-component' ],
+45 silly install resolved     author: { name: 'Andrew Laiff' },
+45 silly install resolved     license: 'MIT',
+45 silly install resolved     bugs: { url: 'https://github.com/Laiff/react-font-awesome/issues' },
+45 silly install resolved     peerDependencies: { react: '~0.11.2' },
+45 silly install resolved     _id: 'react-font-awesome@1.0.3',
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: 'c4c67cc0038c2288d35f02d0a952d41ece2a16e0',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz' },
+45 silly install resolved     _from: 'react-font-awesome@*',
+45 silly install resolved     _npmVersion: '1.3.10',
+45 silly install resolved     _npmUser: { name: 'laiff', email: 'q.laiff@gmail.com' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _shasum: 'c4c67cc0038c2288d35f02d0a952d41ece2a16e0',
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/react-font-awesome/-/react-font-awesome-1.0.3.tgz' } ]
+46 info install react-font-awesome@1.0.3 into c:\projects\react-dev-team
+47 info installOne react-font-awesome@1.0.3
+48 verbose installOne of react-font-awesome to c:\projects\react-dev-team not in flight; installing
+49 verbose lock using C:\Users\danielg\AppData\Roaming\npm-cache\_locks\react-font-awesome-04f2b5b67d022cf8.lock for c:\projects\react-dev-team\node_modules\react-font-awesome
+50 silly install write writing react-font-awesome 1.0.3 to c:\projects\react-dev-team\node_modules\react-font-awesome
+51 silly cache addNamed cb react-font-awesome@1.0.3
+52 verbose unbuild node_modules\react-font-awesome
+53 verbose gentlyRm vacuuming c:\projects\react-dev-team\node_modules\react-font-awesome
+54 verbose tar unpack C:\Users\danielg\AppData\Roaming\npm-cache\react-font-awesome\1.0.3\package.tgz
+55 verbose tar unpacking to c:\projects\react-dev-team\node_modules\react-font-awesome
+56 verbose gentlyRm vacuuming c:\projects\react-dev-team\node_modules\react-font-awesome
+57 silly gunzTarPerm modes [ '777', '666' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+62 silly gunzTarPerm extractEntry README.md
+63 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+64 silly gunzTarPerm extractEntry LICENSE
+65 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+66 silly gunzTarPerm extractEntry index.js
+67 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+68 info preinstall react-font-awesome@1.0.3
+69 silly prepareForInstallMany adding react@~0.11.2 from react-font-awesome peerDependencies
+70 silly install resolved []
+71 verbose about to build c:\projects\react-dev-team\node_modules\react-font-awesome
+72 info build c:\projects\react-dev-team\node_modules\react-font-awesome
+73 verbose linkStuff [ false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   false,
+73 verbose linkStuff   'c:\\projects\\react-dev-team\\node_modules' ]
+74 info linkStuff react-font-awesome@1.0.3
+75 verbose linkBins react-font-awesome@1.0.3
+76 verbose linkMans react-font-awesome@1.0.3
+77 verbose rebuildBundles react-font-awesome@1.0.3
+78 info install react-font-awesome@1.0.3
+79 info postinstall react-font-awesome@1.0.3
+80 verbose already installed skipping react@~0.11.2 c:\projects\react-dev-team
+81 silly install resolved []
+82 verbose unlock done using C:\Users\danielg\AppData\Roaming\npm-cache\_locks\react-font-awesome-04f2b5b67d022cf8.lock for c:\projects\react-dev-team\node_modules\react-font-awesome
+83 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\lib\install.js:103:32
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\lib\install.js:225:5
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+83 verbose stack     at cb (c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+83 verbose stack     at cb (c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+83 verbose stack     at cb (c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+83 verbose stack     at c:\Users\danielg\AppData\Roaming\npm\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+84 verbose cwd c:\projects\react-dev-team
+85 error Windows_NT 6.1.7601
+86 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Users\\danielg\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "react-font-awesome"
+87 error node v0.10.30
+88 error npm  v2.3.0
+89 error code EPEERINVALID
+90 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+90 error peerinvalid Peer react-magic-move@0.1.0 wants react@0.12.x
+90 error peerinvalid Peer react-addons@0.9.0 wants react@>= 0.9.0
+90 error peerinvalid Peer react-font-awesome@1.0.3 wants react@~0.11.2
+91 verbose exit [ 1, true ]
