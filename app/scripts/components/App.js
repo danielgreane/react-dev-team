@@ -42,7 +42,8 @@ var App = React.createClass({
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
-      	<footer>
+      	<footer className="footer">
+      		<label>Show Widgets: </label>
       		<WidgetToggle name="Top Committers" />
       		<WidgetToggle name="Top Repos" />
       		<WidgetToggle name="Live Commit Stream" />

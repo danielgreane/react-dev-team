@@ -1,7 +1,6 @@
 /** @jsx React.DOM */
 var React = require('react');
 var Commit = require('./Commit');
-var MagicMove = require('./MagicMove');
 var RepoInfo = require('./RepoInfo');
 
 var Store = require('./../Store');

@@ -33,7 +33,9 @@ module.exports = flux.createStore({
   init: function() {
     this._buildTestRepos();
     this._calculateTopCommitters();
+    this._calculateTopRepoCommitters();
     this.fetchRepos();
+
 
     // Tests / Demo to illustrate functionality
     setTimeout(this._addTestRepo.bind(this), 1500);
@@ -77,6 +79,41 @@ module.exports = flux.createStore({
       return 0;
     });
     this.emit(events.REPOS_REFRESHED);
+  },
+
+  _calculateTopRepoCommitters: function() {
+    var authors;
+
+    // 1. Count all authors
+    _.each(this.repos, function(repo) {
+      authors = [];
+
+      _.each(repo.commits, function(commit) {
+        if ('author' in commit && commit.author) {
+          if (commit.author.id in authors) {
+            authors[ commit.author.id ].count++;
+          } else {
+            authors[ commit.author.id ] = {
+              count: 1,
+              data: commit.author
+            };
+          }
+        }
+      }.bind(this));
+
+      // 3. Sort authors by the count we just gave it
+      authors.sort(function(a, b) {
+        if (a.count > b.count)
+          return -1;
+        if (a.count < b.count)
+          return 1;
+        return 0;
+      });
+
+      repo.top_committer = authors[0];
+
+    }.bind(this));
+    
   },
 
   /* Helper: Calculate top-committer list & broadcase */
@@ -131,12 +168,16 @@ module.exports = flux.createStore({
   _addTestRepo: function() {
     this.repos.push( require('../data/repos/zhouzi/theaterjs') )
     this.repos[2].commits = require( '../data/repos/zhouzi/theaterjs/commits' );
+    this._calculateTopCommitters();
+    this._calculateTopRepoCommitters();
     this.emit(events.REPOS_REFRESHED);
   },
 
   _addTestCommits: function() {
     this.repos[0].commits.unshift( require( '../data/repos/zhouzi/theaterjs/commits' )[1] );
     this.repos[0].commits[0].commit.author.date = new Date();
+    this._calculateTopCommitters();
+    this._calculateTopRepoCommitters();
     this.emit(events.REPOS_REFRESHED);
   },
 

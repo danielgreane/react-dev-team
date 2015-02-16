@@ -1,4 +1,3 @@
-require('jasmine-as-promised')();
 var service = require('./../app/scripts/GitHubService.js');
 service.init({BASE_GITHUB_URL:'https://api.github.com/repos/'});
 
