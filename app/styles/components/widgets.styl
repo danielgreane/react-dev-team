@@ -2,18 +2,24 @@
 	position fixed
 	width 100%
 	bottom 3.5em
+	left 0
 	
 	
 
 .widget
 	col(1/2)
 	min-height 4em
-	padding 0.5em 1em
+	padding 0.25em 1em
+	margin-left 0
 	box-sizing border-box
 	background-color rgba(darken(complement($color1), 50), 0.95)
 	color white
+	transition margin-left 0.7s ease-in-out
 	h2
 		font-family 'Open Sans'
+		text-transform uppercase
+	&--hidden
+		margin-left -50%
 	&--topCommitters
 		&__entry
 			position relative

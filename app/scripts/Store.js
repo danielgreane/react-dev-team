@@ -24,7 +24,27 @@ module.exports = flux.createStore({
   actions: [
     actions.init,
     actions.fetchRepos,
-    actions.refreshCommits
+    actions.refreshCommits,
+    actions.toggleWidget
+  ],
+
+  /* Widget states */
+  widgets: [
+    {
+      id: 'topCommitters',
+      label: 'Top Committers',
+      visible: true
+    },
+    {
+      id: 'topRepos',
+      label: 'Top Repositories',
+      visible: false
+    },
+    {
+      id: 'liveCommitStream',
+      label: 'Live Commit Stream',
+      visible: false
+    }
   ],
 
   _dataAccessComponent: null,
@@ -40,8 +60,8 @@ module.exports = flux.createStore({
     // Tests / Demo to illustrate functionality
     setTimeout(this._addTestRepo.bind(this), 1500);
     setTimeout(this._addTestCommits.bind(this), 3000);
-    setTimeout(this._doTestReverse.bind(this), 4500);
-    setTimeout(this._orderReposByLastCommit.bind(this), 6000);
+    //setTimeout(this._doTestReverse.bind(this), 4500);
+    //setTimeout(this._orderReposByLastCommit.bind(this), 6000);
 
     //console.log(this._dataAccessComponent.name);
   },
@@ -65,6 +85,16 @@ module.exports = flux.createStore({
   refreshCommits: function() {
     // TODO: fetch updated commits from Github service
     this.emit(events.REPOS_REFRESHED); 
+  },
+
+  toggleWidget: function(id, checked) {
+    var i = -1;
+    var widget = _.find(this.widgets, function(w, _i) {
+      if (w.id === id) i = _i;
+    });
+    if (i === -1) return;
+    this.widgets[ i ].visible = checked;
+    this.emit(events.WIDGETS_TOGGLED);
   },
 
   /* Helper: Re-orders commits by most recent and notifies elements  */
@@ -209,6 +239,15 @@ module.exports = flux.createStore({
 
     getTopCommitters: function() {
       return this.authors;
+    },
+
+    getWidget: function(id) {
+      var widgets = _.where(this.widgets, {id: id});
+      return (widgets.length ? widgets[0] : null);
+    },
+
+    getWidgets: function() {
+      return this.widgets;
     },
 
     setDataAccessComponent: function(dataAccessComponent){

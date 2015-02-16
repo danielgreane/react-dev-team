@@ -5,5 +5,6 @@ module.exports = flux.createActions([
 	'init',
   'fetchRepos',
   'refreshCommits',
-  'displayCommit'
+  'displayCommit',
+  'toggleWidget'
 ]);

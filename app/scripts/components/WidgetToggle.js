@@ -1,16 +1,21 @@
 /** @jsx React.DOM */
 var React = require('react');
 var Icon = require('react-font-awesome').Icon;
+var actions = require('../actions');
 
 var WidgetToggle = React.createClass({
 
+  getDefaultProps: function() {
+  },
+
   getInitialState: function() {
     return {
-      checked: false
+      checked: this.props.initiallyChecked
     };
   },
 
   componentDidMount: function() {
+    console.log('WidgetToggle mounted', this.props);
   },
 
   componentWillUnmount: function() {
@@ -18,6 +23,7 @@ var WidgetToggle = React.createClass({
 
   toggle: function() {
     var checked = !this.state.checked;
+    actions.toggleWidget(this.props.id, checked);
     this.setState({
       checked: checked
     });
@@ -27,7 +33,7 @@ var WidgetToggle = React.createClass({
     return (
       <div className="widgetToggle" onClick={ this.toggle }>
         <i className={  this.state.checked ? 'fa fa-check-square' : 'fa fa-square-o' } /> 
-        { this.props.name }
+        { this.props.label }
       </div>
     );
   },

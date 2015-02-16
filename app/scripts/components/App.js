@@ -3,7 +3,7 @@ var React = require('react');
 var Commit = require('./Commit');
 var Repo = require('./Repo');
 var Header = require('./Header');
-var WidgetToggle = require('./WidgetToggle');
+var Footer = require('./Footer');
 var TopCommitters = require('./widgets/TopCommitters');
 
 var actions = require('./../actions');
@@ -45,16 +45,10 @@ var App = React.createClass({
       	})}
 
 				<div className="widgets">
-					<TopCommitters number="4" />
+					<TopCommitters name="topCommitters" number="4" />
 				</div>
 
-      	<footer className="footer">
-      		<label>Show Widgets: </label>
-      		<WidgetToggle name="Top Committers" />
-      		<WidgetToggle name="Top Repos" />
-      		<WidgetToggle name="Live Commit Stream" />
-      		<WidgetToggle name="Test 1" />
-      	</footer>
+      	<Footer />
       </div>
 		);
 	}
