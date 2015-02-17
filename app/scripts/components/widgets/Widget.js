@@ -30,7 +30,6 @@ var TopRepos = React.createClass({
   },
 
   _setVisibility: function(e) {
-    console.log('Visibility set for ...', this.props);
     this.setState({
       visible: Store.getWidget(this.props.id).visible
     });

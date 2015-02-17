@@ -15,7 +15,6 @@ var WidgetToggle = React.createClass({
   },
 
   componentDidMount: function() {
-    console.log('WidgetToggle mounted', this.props);
   },
 
   componentWillUnmount: function() {
