@@ -26,7 +26,7 @@ var App = React.createClass({
 
 	componentDidMount: function() {
 		Store.on(events.REPOS_REFRESHED, this.setRepos)
-		actions.init();
+		//actions.init();
 	},
 
 	setRepos: function() {

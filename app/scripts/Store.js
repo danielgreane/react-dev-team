@@ -2,14 +2,11 @@ var flux = require('flux-react');
 var actions = require('./actions');
 var events = require('./events');
 var config = require('./config');
-var GitHubService = require('./GitHubService');
 
 var _ = require('underscore');
 var $ = require('zepto-browserify').$;
 
 var REPOS_ENDPOINT = 'https://api.github.com/repos/';
-
-
 
 module.exports = flux.createStore({
 
@@ -27,21 +24,23 @@ module.exports = flux.createStore({
     actions.refreshCommits
   ],
 
-  _dataAccessComponent: null,
+  _gitHubService: null,
 
   /* Action: Start the store */
-  init: function() {
-    this._buildTestRepos();
-    this._calculateTopCommitters();
-    this._calculateTopRepoCommitters();
+  init: function(gitHubService) {
+    //this._buildTestRepos();
+    //this._calculateTopCommitters();
+    //this._calculateTopRepoCommitters();
+    _gitHubService = gitHubService;
     this.fetchRepos();
 
 
-    // Tests / Demo to illustrate functionality
+    /* Tests / Demo to illustrate functionality
     setTimeout(this._addTestRepo.bind(this), 1500);
     setTimeout(this._addTestCommits.bind(this), 3000);
     setTimeout(this._doTestReverse.bind(this), 4500);
     setTimeout(this._orderReposByLastCommit.bind(this), 6000);
+    */
 
     //console.log(this._dataAccessComponent.name);
   },
@@ -50,15 +49,24 @@ module.exports = flux.createStore({
   fetchRepos: function() {
     // TODO: fetch repos from Github service and fill with commits
 
-    /*
-    GitHubService.getRepo('facebook/flux').then(e => {
-      e.commits = require('../data/repos/facebook/flux/commits' );
-      this.repos.push(e);
-      this.emit(events.REPOS_REFRESHED);
-    });
-    */
+    var fullNames = ['facebook/presto', 'facebook/flux', 'guardian/frontend'];
+    _.each(fullNames, fullName => {
+      _gitHubService.getRepo(fullName).then(repo => {
+        _gitHubService.getCommits(fullName).then(commits => {
+          repo.commits = commits;
+          
+          //repo.top_committer = { data: {}, count: 815 }; // todo: add data and count
 
-    this.emit(events.REPOS_REFRESHED);
+          this.repos.push(repo);
+
+          // todo: delegate this design to another party
+          this._calculateTopCommitters();
+          this._calculateTopRepoCommitters();
+
+          this.emit(events.REPOS_REFRESHED);
+        })
+      });
+    });
   },
 
   /* Action: Refreshes list of all repos */
@@ -165,6 +173,7 @@ module.exports = flux.createStore({
     this.repos[1].commits = require( '../data/repos/facebook/presto/commits' );
   },
 
+  // todo: move into a fake service
   _addTestRepo: function() {
     this.repos.push( require('../data/repos/zhouzi/theaterjs') )
     this.repos[2].commits = require( '../data/repos/zhouzi/theaterjs/commits' );
@@ -173,6 +182,7 @@ module.exports = flux.createStore({
     this.emit(events.REPOS_REFRESHED);
   },
 
+  // todo: move into a fake service
   _addTestCommits: function() {
     this.repos[0].commits.unshift( require( '../data/repos/zhouzi/theaterjs/commits' )[1] );
     this.repos[0].commits[0].commit.author.date = new Date();
@@ -208,11 +218,6 @@ module.exports = flux.createStore({
 
     getTopComitters: function() {
       return this.comitters;
-    },
-
-    setDataAccessComponent: function(dataAccessComponent){
-      this._dataAccessComponent = dataAccessComponent;
     }
-
-  }
+  }  
 });
