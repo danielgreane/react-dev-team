@@ -44,7 +44,7 @@ var App = React.createClass({
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
-				<Widgets />
+				<WidgetArea />
       	<Footer />
       </div>
 		);

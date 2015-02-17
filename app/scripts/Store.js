@@ -30,12 +30,12 @@ var Store = {
     {
       id: 'topCommitters',
       label: 'Top Committers',
-      visible: false
+      visible: true
     },
     {
       id: 'topRepos',
       label: 'Top Repositories',
-      visible: false
+      visible: true
     },
     {
       id: 'liveCommitStream',
