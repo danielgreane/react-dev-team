@@ -2,7 +2,7 @@ var $ = require('zepto-browserify').$;
 
 var instance = false;
 
-var GitHubService = function(){
+var FakeGitHubService = function(){
 	var _config = null;
 
 	var init = function(config){
@@ -33,4 +33,4 @@ var GitHubService = function(){
 	};
 };
 
-module.exports = (instance ? GitHubService : instance = GitHubService());
+module.exports = (instance ? FakeGitHubService : instance = FakeGitHubService());

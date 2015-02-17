@@ -1,51 +1,51 @@
-{"version":3,"sources":["core.styl","core.css","components/header.styl","components/repo.styl","../../node_modules/jeet/stylus/jeet/_grid.styl","../../node_modules/rupture/rupture/index.styl","components/repoInfo.styl","components/commit.styl","components/user.styl","components/footer.styl","components/widgets.styl"],"names":[],"mappings":";AAYA,iEAAA;;ACTA,gHAA+G;;AAE/G,kHDWC;;AEhBD,kFAAA;;ADSA,mFCPC;;ADSD,mFCPC;;ADSD,oFCPC;;ADSD,uFCPC;;ADSD,wFAAuF;;AAEvF,wFCRE;;ADUF,0FAAyF;;AAEzF,mFEnBC;;AFqBD,qFGCE;;AHCF,kFGCE;;AHCF,+DGCc;AHAd,oFGCuB;;AHCvB,gEEvBC;AFwBD;EErBE,kCAAA;EFuBD;;AAED,gEAA+D;AEzB7D;EF2BA,qBAAoB;EE3BpB;;AAAA,mFAAA;;AAAA,8EAAA;;AAAA,4EAAA;AFmCF;EEnCE,iBAAA;EFqCA,aAAY;EErCZ,iBAAA;EFuCA,QAAO;EEvCP,SAAA;EFyCA,YAAW;EEzCX,kBAAA;EF2CA,2BAA0B;EE3C1B,sCAAA;UAAA,8BAAA;EF6CD;;AAED,6EAA4E;AE/C1E;EFiDA,yCAAwC;EEjDxC,0CAAA;EFmDD;;AAED,6EAA4E;;AAE5E,4EAA2E;;AAE3E,0EAAyE;AEzDvE;EF2DA,oBAAmB;GE3DnB,SAAA;EF6DA,aAAY;EE7DZ,aAAA;EF+DA,qBAAoB;EE/DpB,eAAA;EFiEA,iBAAgB;EEjEhB,kBAAA;EFmEA,gBAAe;EEnEf,kBAAA;EFqEA,qCAA4B;UAA5B,6BAA4B;AErE5B;sDFuEmD;AEvEnD;sDFyEmD;AEzEnD;sDF2EmD;AE3EnD;sDF6EmD;AE7EnD;sDF+EmD;AE/EnD;sDFiFmD;AEjFnD;sDFmFmD;AEnFnD;sDFqFmD;AErFnD;sDFuFmD;AEvFnD;sDFyFmD;AEzFnD;sDF2FmD;AE3FnD;sDF6FmD;AE7FnD;sDF+FmD;AE/FnD;sDFiGmD;AEjGnD;sDFmGmD;AEnGnD;sDFqGmD;AErGnD;sDFuGmD;AEvGnD;sDFyGmD;AEzGnD;sDF2GmD;AE3GnD;sDF6GmD;AE7GnD;sDF+GmD;AE/GnD;sDFiHmD;AEjHnD;sDFmHmD;AEnHnD;sDFqHmD;AErHnD;sDFuHmD;AEvHnD;sDFyHmD;AACrD;sDG6IE;AAAU;sDACR;AH1IJ;sDACqD;AG4InD;sDACE;AH1IJ;sDG/FI;AHiGJ;sDACqD;AIF1C;sDAAA;AJKX;sDG1HE;AH4HF;sDG1HE;AH4HF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","file":"core.css","sourcesContent":["@import 'jeet'\n@import 'rupture'\n\n@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px')\n\n$color1 = saturate(#E8D0A9, 100)\n$color2 = saturate(#B7AFA3, 100)\n$color3 = saturate(#C1DAD6, 100)\n$color4 = saturate(#F5FAFA, 100)\n$color5 = saturate(#ACD1E9, 100)\n$color6 = saturate(#6D929B, 100)\n\nhtml\n\tfont-family 'Slabo 27px', serif\n\nbody\n\tbackground $color5\n\t\n\n@import 'components/header'\n@import 'components/repo'\n@import 'components/repoInfo'\n@import 'components/commit'\n@import 'components/user'\n\n@import 'components/footer'\n@import 'components/widgets'\n\n\n\n\n\n\n\n","\n/* line 286 : c:\\projects\\react-dev-team\\app\\styles\\core.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\gulp-stylus\\node_modules\\stylus\\lib\\functions\\index.styl */\n\n/* line 260 : c:\\projects\\react-dev-team\\node_modules\\gulp-stylus\\node_modules\\stylus\\lib\\functions\\index.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 17 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\index.styl */\n\n/* line 11 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\index.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_settings.styl */\n\n/* line 64 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_settings.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_functions.styl */\n\n/* line 281 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_functions.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n\n/* line 260 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 4 : c:\\projects\\react-dev-team\\app\\styles\\core.styl */\n@import url(\"http://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px\");\n\n/* line 13 : c:\\projects\\react-dev-team\\app\\styles\\core.styl */\nhtml {\n  font-family: 'Slabo 27px', serif;\n}\n\n/* line 16 : c:\\projects\\react-dev-team\\app\\styles\\core.styl */\nbody {\n  background: #77dcff;\n}\n\n/* line 13 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 281 : c:\\projects\\react-dev-team\\app\\styles\\components\\header.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\header.styl */\n.header {\n  position: fixed;\n  width: 100%;\n  height: 10.95em;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  box-shadow: none;\n  background-color: #77dcff;\n  transition: all 0.2s ease-in;\n}\n\n/* line 11 : c:\\projects\\react-dev-team\\app\\styles\\components\\header.styl */\n.header--arching {\n  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);\n  background-color: rgba(241,251,255,0.95);\n}\n\n/* line 14 : c:\\projects\\react-dev-team\\app\\styles\\components\\header.styl */\n\n/* line 247 : c:\\projects\\react-dev-team\\app\\styles\\components\\repo.styl */\n\n/* line 4 : c:\\projects\\react-dev-team\\app\\styles\\components\\repo.styl */\n.repo {\n  position: relative;\n  *zoom: 1;\n  float: left;\n  clear: none;\n  text-align: inherit;\n  width: 24.25%;\n  margin-left: 0%;\n  margin-right: 1%;\n  display: block;\n  min-height: 100%;\n  transition: all 1s ease-out;\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n}\n\n/* line 276 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:before,\n.repo:after {\n  content: '';\n  display: table;\n}\n\n/* line 280 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:after {\n  clear: both;\n}\n\n/* line 48 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:last-child {\n  margin-right: 0%;\n}\n@media only screen and (min-width: 100em) {\n\n/* line 144 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n  .repo {\n    *zoom: 1;\n    float: left;\n    clear: none;\n    text-align: inherit;\n    width: 19.2%;\n    margin-left: 0%;\n    margin-right: 1%;\n  }\n\n/* line 276 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:before,\n  .repo:after {\n    content: '';\n    display: table;\n  }\n\n/* line 280 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:after {\n    clear: both;\n  }\n\n/* line 48 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:last-child {\n    margin-right: 0%;\n  }\n}\n\n/* line 62 : c:\\projects\\react-dev-team\\app\\styles\\components\\repo.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo {\n  z-index: 1;\n  position: fixed;\n  box-sizing: border-box;\n  *zoom: 1;\n  float: left;\n  clear: none;\n  text-align: inherit;\n  width: 24.25%;\n  margin-left: 0%;\n  margin-right: 1%;\n  background-color: #ffdd73;\n  padding-left: 1em;\n  min-height: 10.45em;\n  overflow: hidden;\n  border: 0.15em solid #111;\n  border-radius: 2em;\n  border-bottom-right-radius: 0em;\n  border-bottom-left-radius: 0em;\n  border-bottom: 0;\n  transition: background-color 0.5s linear;\n}\n\n/* line 276 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:before,\n.repoInfo:after {\n  content: '';\n  display: table;\n}\n\n/* line 280 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:after {\n  clear: both;\n}\n\n/* line 48 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:last-child {\n  margin-right: 0%;\n}\n@media only screen and (min-width: 100em) {\n\n/* line 144 : c:\\projects\\react-dev-team\\node_modules\\rupture\\rupture\\index.styl */\n  .repoInfo {\n    *zoom: 1;\n    float: left;\n    clear: none;\n    text-align: inherit;\n    width: 19.2%;\n    margin-left: 0%;\n    margin-right: 1%;\n  }\n\n/* line 276 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:before,\n  .repoInfo:after {\n    content: '';\n    display: table;\n  }\n\n/* line 280 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:after {\n    clear: both;\n  }\n\n/* line 48 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:last-child {\n    margin-right: 0%;\n  }\n}\n\n/* line 18 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"0\"],\n.repoInfo[data-shade=1] {\n  background-color: #ffdd73;\n}\n\n/* line 20 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"2\"] {\n  background-color: #ffe48f;\n}\n\n/* line 22 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"3\"] {\n  background-color: #ffebab;\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"4\"] {\n  background-color: #fff1c7;\n}\n\n/* line 26 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"5\"] {\n  background-color: #fff8e3;\n}\n\n/* line 28 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"6\"] {\n  background-color: #fff;\n}\n\n/* line 30 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > img {\n  width: 4.5em;\n  position: absolute;\n  left: -0.25em;\n  top: 0;\n  border-top-right-radius: 2em;\n  border-bottom-right-radius: 2em;\n}\n\n/* line 37 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > h2 {\n  margin-top: 0.2em;\n  margin-left: 2em;\n  font-size: 2.3rem;\n  padding-bottom: 0;\n  margin-bottom: 0;\n}\n\n/* line 43 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > span {\n  display: inline-block;\n  margin-top: -0.2em;\n  margin-left: 5em;\n  margin-bottom: 0.4em;\n  font-size: 1em;\n  font-weight: bold;\n  font-style: italic;\n  color: #006363;\n  font-family: 'Open Sans';\n}\n\n/* line 53 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > ul {\n  margin-left: -0.5em;\n  padding: 0;\n  font-family: 'Open Sans';\n  font-size: 0.9em;\n  color: #111;\n}\n\n/* line 59 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > ul > li {\n  padding: 0;\n  width: 100%;\n  text-align: left;\n}\n\n/* line 71 : c:\\projects\\react-dev-team\\app\\styles\\components\\repoInfo.styl */\n\n/* line 247 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n\n/* line 4 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit {\n  position: absolute;\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  width: 100%;\n  padding: 1em;\n  margin-bottom: 1.25em;\n  height: 10em;\n  overflow: hidden;\n  border-bottom-right-radius: 0em;\n/*box-shadow 2px 5px 5px rgba(#333, 0.3)*/\n  background-color: #fff;\n  font-size: 1rem;\n  border: 0.15em solid #111;\n  transition: all 1s ease-out;\n  animation: fadeIn 1s ease-in forwards;\n  animation-iteration-count: 1;\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(0) {\n  transform: translateY(-100%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(1) {\n  transform: translateY(10%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(2) {\n  transform: translateY(120%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(3) {\n  transform: translateY(230%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(4) {\n  transform: translateY(340%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(5) {\n  transform: translateY(450%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(6) {\n  transform: translateY(560%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(7) {\n  transform: translateY(670%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(8) {\n  transform: translateY(780%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(9) {\n  transform: translateY(890%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(10) {\n  transform: translateY(1000%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(11) {\n  transform: translateY(1110%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(12) {\n  transform: translateY(1220%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(13) {\n  transform: translateY(1330%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(14) {\n  transform: translateY(1440%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(15) {\n  transform: translateY(1550%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(16) {\n  transform: translateY(1660%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(17) {\n  transform: translateY(1770%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(18) {\n  transform: translateY(1880%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(19) {\n  transform: translateY(1990%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(20) {\n  transform: translateY(2100%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(21) {\n  transform: translateY(2210%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(22) {\n  transform: translateY(2320%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(23) {\n  transform: translateY(2430%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(24) {\n  transform: translateY(2540%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(25) {\n  transform: translateY(2650%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(26) {\n  transform: translateY(2760%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(27) {\n  transform: translateY(2870%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(28) {\n  transform: translateY(2980%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(29) {\n  transform: translateY(3090%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(30) {\n  transform: translateY(3200%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(31) {\n  transform: translateY(3310%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(32) {\n  transform: translateY(3420%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(33) {\n  transform: translateY(3530%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(34) {\n  transform: translateY(3640%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(35) {\n  transform: translateY(3750%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(36) {\n  transform: translateY(3860%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(37) {\n  transform: translateY(3970%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(38) {\n  transform: translateY(4080%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(39) {\n  transform: translateY(4190%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(40) {\n  transform: translateY(4300%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(41) {\n  transform: translateY(4410%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(42) {\n  transform: translateY(4520%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(43) {\n  transform: translateY(4630%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(44) {\n  transform: translateY(4740%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(45) {\n  transform: translateY(4850%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(46) {\n  transform: translateY(4960%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(47) {\n  transform: translateY(5070%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(48) {\n  transform: translateY(5180%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(49) {\n  transform: translateY(5290%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(50) {\n  transform: translateY(5400%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(51) {\n  transform: translateY(5510%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(52) {\n  transform: translateY(5620%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(53) {\n  transform: translateY(5730%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(54) {\n  transform: translateY(5840%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(55) {\n  transform: translateY(5950%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(56) {\n  transform: translateY(6060%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(57) {\n  transform: translateY(6170%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(58) {\n  transform: translateY(6280%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(59) {\n  transform: translateY(6390%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(60) {\n  transform: translateY(6500%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(61) {\n  transform: translateY(6610%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(62) {\n  transform: translateY(6720%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(63) {\n  transform: translateY(6830%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(64) {\n  transform: translateY(6940%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(65) {\n  transform: translateY(7050%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(66) {\n  transform: translateY(7160%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(67) {\n  transform: translateY(7270%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(68) {\n  transform: translateY(7380%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(69) {\n  transform: translateY(7490%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(70) {\n  transform: translateY(7600%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(71) {\n  transform: translateY(7710%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(72) {\n  transform: translateY(7820%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(73) {\n  transform: translateY(7930%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(74) {\n  transform: translateY(8040%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(75) {\n  transform: translateY(8150%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(76) {\n  transform: translateY(8260%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(77) {\n  transform: translateY(8370%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(78) {\n  transform: translateY(8480%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(79) {\n  transform: translateY(8590%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(80) {\n  transform: translateY(8700%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(81) {\n  transform: translateY(8810%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(82) {\n  transform: translateY(8920%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(83) {\n  transform: translateY(9030%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(84) {\n  transform: translateY(9140%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(85) {\n  transform: translateY(9250%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(86) {\n  transform: translateY(9360%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(87) {\n  transform: translateY(9470%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(88) {\n  transform: translateY(9580%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(89) {\n  transform: translateY(9690%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(90) {\n  transform: translateY(9800%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(91) {\n  transform: translateY(9910%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(92) {\n  transform: translateY(10020%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(93) {\n  transform: translateY(10130%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(94) {\n  transform: translateY(10240%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(95) {\n  transform: translateY(10350%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(96) {\n  transform: translateY(10460%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(97) {\n  transform: translateY(10570%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(98) {\n  transform: translateY(10680%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(99) {\n  transform: translateY(10790%);\n}\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(100) {\n  transform: translateY(10900%);\n}\n\n/* line 28 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(2) {\n  background-color: #ffdd73;\n}\n\n/* line 30 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(3) {\n  background-color: #ffe48f;\n}\n\n/* line 32 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(4) {\n  background-color: #ffebab;\n}\n\n/* line 34 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(5) {\n  background-color: #fff1c7;\n}\n\n/* line 36 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(6) {\n  background-color: #fff8e3;\n}\n\n/* line 39 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit > strong {\n  display: block;\n  float: left;\n  width: 100%;\n  margin-top: 0.5em;\n  color: #251c00;\n  font-style: italic;\n  font-family: 'Open Sans';\n  font-weight: normal;\n}\n\n/* line 48 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit > span {\n  z-index: 1;\n  position: absolute;\n  bottom: 0.5em;\n  right: 0.5em;\n  font-family: 'Open Sans';\n  font-size: 0.8em;\n}\n\n/* line 55 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n.commit:after {\n  z-index: 0;\n  content: '';\n  position: absolute;\n  display: block;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2.5em;\n}\n\n/* line 67 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n@-moz-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n@-webkit-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n@-o-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n@keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 29 : c:\\projects\\react-dev-team\\app\\styles\\components\\commit.styl */\n\n/* line 71 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n.user {\n  display: block;\n  width: 100%;\n  font-size: 1em;\n  height: auto;\n/* Contexts */\n}\n\n/* line 6 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n.user img {\n  float: left;\n  width: 2.5em;\n  height: auto;\n  border-radius: 2.5em;\n  border: 0.2em solid #002a38;\n}\n\n/* line 12 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n.user strong {\n  float: left;\n  display: inline-block;\n  height: auto;\n  padding-left: 0.5em;\n  font-size: 1.8em;\n  line-height: 1.5em;\n}\n\n/* line 21 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n.repoTopCommitter .user {\n  width: 100%;\n  text-align: center;\n  color: #fff;\n}\n\n/* line 25 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n.repoTopCommitter .user img,\n.repoTopCommitter .user strong {\n  float: none;\n  display: block;\n  margin: auto;\n  padding: 0;\n}\n\n/* line 17 : c:\\projects\\react-dev-team\\app\\styles\\components\\user.styl */\n\n/* line 29 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n.footer {\n  z-index: 2;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  background-color: rgba(241,251,255,0.95);\n  font-size: 1.25em;\n  font-family: 'Open Sans';\n}\n\n/* line 10 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle,\n.footer label {\n  float: left;\n  margin: 1.5em;\n}\n\n/* line 13 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle:hover,\n.footer label:hover {\n  cursor: pointer;\n}\n\n/* line 15 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle i,\n.footer label i {\n  display: inline-block;\n  margin-right: 0.5em;\n}\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\footer.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n\n/* line 1 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widgets {\n  position: fixed;\n  width: 100%;\n  bottom: 3.5em;\n  left: 0;\n}\n\n/* line 9 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget {\n  *zoom: 1;\n  float: left;\n  clear: none;\n  text-align: inherit;\n  width: 48.5%;\n  margin-left: 0%;\n  margin-right: 3%;\n  min-height: 4em;\n  padding: 0.25em 1em;\n  margin-left: 0;\n  box-sizing: border-box;\n  background-color: rgba(0,28,115,0.95);\n  color: #fff;\n  transition: margin-left 0.7s ease-in-out;\n}\n\n/* line 276 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.widget:before,\n.widget:after {\n  content: '';\n  display: table;\n}\n\n/* line 280 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.widget:after {\n  clear: both;\n}\n\n/* line 48 : c:\\projects\\react-dev-team\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.widget:last-child {\n  margin-right: 0%;\n}\n\n/* line 18 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget h2 {\n  font-family: 'Open Sans';\n  text-transform: uppercase;\n}\n\n/* line 21 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget--hidden {\n  margin-left: -50%;\n}\n\n/* line 23 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n\n/* line 24 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget--topCommitters__entry {\n  position: relative;\n  float: left;\n  display: inline-block;\n  width: 50%;\n  padding-left: 3.5em;\n  box-sizing: border-box;\n  min-height: 6em;\n}\n\n/* line 32 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget--topCommitters__entry > label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-size: 2.5em;\n}\n\n/* line 37 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget--topCommitters__entry > label:before {\n  content: '#';\n}\n\n/* line 39 : c:\\projects\\react-dev-team\\app\\styles\\components\\widgets.styl */\n.widget--topCommitters__entry > span {\n  line-height: 2.6em;\n  padding-left: 1em;\n}\n",".header\n\tposition fixed\n\twidth 100%\n\theight 10.95em\n\ttop 0\n\tleft 0\n\tz-index 1\n\tbox-shadow none\t\n\tbackground-color $color5\n\ttransition all 0.2s ease-in \n\t&--arching\n\t\tbox-shadow 5px 5px 5px rgba(black, 0.6)\n\t\tbackground-color rgba(lighten($color5, 90%), 0.95)","_getTranslateX(a,b)\n\t{(a * b + 5) %}\n\n.repo\n\tposition relative\n\tcol(1/4, gutter:1)\n\t+above(100em)\n\t\tcol(1/5, gutter:1)\n\tdisplay block\n\tmin-height 100%\n\ttransition all 1s ease-out\n\tfor i in (1..50)\n\t\t/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/","/**\n * Style an element as a column with a gutter.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [offset=0] - A offset specified as a fraction (see ratios).\n * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.\n * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn(ratios = 1, offset = 0, cycle = 0, uncycle = 0, gutter = jeet.gutter)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n  column-widths = jeet-get-column(ratios, gutter)\n  margin-last = 0\n  margin-l = margin-last\n  margin-r = column-widths[1]\n\n  unless offset == 0\n    if offset < 0\n      offset *= -1\n      offset = jeet-get-column(offset, column-widths[1])[0]\n      margin-r = margin-last = offset + column-widths[1] * 2\n    else\n      offset = jeet-get-column(offset, column-widths[1])[0]\n      margin-l = offset + column-widths[1]\n\n  cf()\n  float: side\n  clear: none\n  text-align: inherit\n  width: (column-widths[0])%\n  margin-{side}: (margin-l)%\n  margin-{opposite-side}: (margin-r)%\n\n  if uncycle != 0\n    &:nth-child({uncycle}n)\n      margin-{opposite-side}: (margin-r)%\n      float: side\n    &:nth-child({uncycle}n+1)\n      clear: none\n\n  if cycle != 0\n    &:nth-child({cycle}n)\n      margin-{opposite-side}: (margin-last)%\n      float: opposite-side\n    &:nth-child({cycle}n+1)\n      clear: both\n   else\n    &:last-child\n      margin-{opposite-side}: (margin-last)%\n\n/**\n * An alias for the column mixin.\n */\ncol = column\n\n/**\n * Get the width of a column and nothing else.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn-width(ratios = 1, gutter = jeet.gutter)\n  return jeet-get-column(ratios, gutter)[0] + '%'\n\n/**\n * An alias for the column-width function.\n */\ncw = column-width\n\n/**\n * Get the gutter size of a column and nothing else.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn-gutter(ratios = 1, gutter = jeet.gutter)\n  return jeet-get-column(ratios, gutter)[1] + '%'\n\n/**\n * An alias for the column-gutter function.\n */\ncg = column-gutter\n\n/**\n * Style an element as a column without any gutters for a seamless row.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [offset=0] - A offset specified as a fraction (see ratios).\n * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.\n * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.\n */\nspan(ratio = 1, offset = 0, cycle = 0, uncycle = 0)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n  span-width = jeet-get-span(ratio)\n  margin-r = 0\n  margin-l = margin-r\n\n  unless offset == 0\n    if offset < 0\n      offset *= -1\n      margin-r = jeet-get-span(offset)\n    else\n      margin-l = jeet-get-span(offset)\n\n  cf()\n  float: side\n  clear: none\n  text-align: inherit\n  width: (span-width)%\n  margin-{side}: (margin-l)%\n  margin-{opposite-side}: (margin-r)%\n\n  if cycle != 0\n    &:nth-child({cycle}n)\n      float: opposite-side\n    &:nth-child({cycle}n + 1)\n      clear: both\n\n  if uncycle != 0\n    &:nth-child({uncycle}n)\n      float: side\n    &:nth-child({uncycle}n + 1)\n      clear: none\n\n/**\n * Reorder columns without altering the HTML.\n * @param {number} [ratios=0] - Specify how far along you want the element to move.\n * @param {string} [col-or-span=column] - Specify whether the element has a gutter or not.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\nshift(ratios = 0, col-or-span = column, gutter = jeet.gutter)\n  translate = ''\n  side = jeet-get-layout-direction()\n\n  if side == right\n    ratios = jeet-replace-nth(ratios, 0, ratios[0] * -1)\n\n  if col-or-span == column or col-or-span == col or col-or-span == c\n    column-widths = jeet-get-column(ratios, gutter)\n    translate = column-widths[0] + column-widths[1]\n  else\n    translate = jeet-get-span(ratios)\n\n  position: relative\n  left: (translate)%\n\n/**\n * Reset an element that has had shift() applied to it.\n */\nunshift()\n  position: static\n  left: 0\n\n/**\n * View the grid and its layers for easy debugging.\n * @param {string} [color=black] - The background tint applied.\n * @param {boolean} [important=false] - Whether to apply the style as !important.\n */\nedit(color = black, important = false)\n  if important\n    *\n      background: rgba(color, 5%) !important\n  else\n    *\n      background: rgba(color, 5%)\n\n/**\n *  Alias for edit().\n */\ndebug = edit\n\n/**\n * Horizontally center an element.\n * @param {number} [max-width=jeet.max-width] - The max width the element can be.\n * @param {number} [pad=0] - Specify the element's left and right padding.\n */\ncenter(max-width = jeet.max-width, pad = 0)\n  cf()\n  width: auto\n  max-width: max-width\n  float: none\n  display: unquote('block')\n  margin-right: auto\n  margin-left: auto\n  padding-left: pad\n  padding-right: pad\n\n/**\n * Uncenter an element.\n */\nuncenter()\n  max-width: none\n  margin-right: 0\n  margin-left: 0\n  padding-left: 0\n  padding-right: 0\n\n/**\n * Stack an element so that nothing is either side of it.\n * @param {number} [pad=0] - Specify the element's left and right padding.\n * @param {bollean/string} [align=false] - Specify the text align for the element.\n */\nstack(pad = 0, align = false)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n\n  display: unquote('block')\n  clear: both\n  float: none\n  width: 100%\n  margin-left: auto\n  margin-right: auto\n\n  &:first-child\n    margin-{side}: auto\n\n  &:last-child\n    margin-{opposite-side}: auto\n\n  if pad != 0\n    padding-left: pad\n    padding-right: pad\n\n  if (align is not false)\n    if (align == center) or (align == c)\n      text-align: center\n    if (align == left) or (align == l)\n      text-align: left\n    if (align == right) or (align == r)\n      text-align: right\n\n/**\n * Unstack an element.\n */\nunstack()\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n\n  text-align: side\n  display: inline\n  clear: none\n  width: auto\n  margin-left: 0\n  margin-right: 0\n\n  &:first-child\n    margin-{side}: 0\n\n  &:last-child\n    margin-{opposite-side}: 0\n\n/**\n * Center an element on either or both axes.\n * @requires A parent container with relative positioning.\n * @param {string} [direction=both] - Specify which axes to center the element on.\n */\nalign(direction = both)\n  position: absolute\n  transform-style: preserve-3d\n\n  if (direction == horizontal) or (direction == h)\n    left: 50%\n    transform: translateX(-50%)\n  else if (direction == vertical) or (direction == v)\n    top: 50%\n    transform: translateY(-50%)\n  else\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n\n/**\n * Apply a clearfix to an element.\n */\ncf()\n  *zoom: 1\n\n  &:before, &:after\n    content: ''\n    display: table\n\n  &:after\n    clear: both\n","base-font-size ?= 16px\nrasterise-media-queries ?= false\n\nrupture = {\n  rasterise-media-queries: rasterise-media-queries\n  mobile-cutoff: 400px\n  desktop-cutoff: 1050px\n  hd-cutoff: 1800px\n  enable-em-breakpoints: false\n  base-font-size: base-font-size\n  anti-overlap: false\n  density-queries: 'dppx' 'webkit' 'moz' 'dpi'\n  retina-density: 1.5\n  use-device-width: false\n}\nrupture.scale = 0 (rupture.mobile-cutoff) 600px 800px (rupture.desktop-cutoff) (rupture.hd-cutoff)\nrupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'\n\n-is-string(val)\n  if typeof(val) is not 'unit'\n    if val is a 'string' or val is a 'ident'\n      true\n    else\n      false\n  else\n    false\n\n-get-scale-number(scale-name)\n  for list-item, i in rupture.scale-names\n    if list-item is scale-name\n      return i + 1\n  return false\n\n-convert-to(to-unit, value, context = rupture.base-font-size)\n  from-unit = unit(value)\n  return value if to-unit is from-unit\n  if to-unit in ('em' 'rem')\n    return value if from-unit in ('em' 'rem')\n    return unit((value / context), to-unit)\n  if to-unit is 'px'\n    return unit((value * context), 'px')\n\n-on-scale(n)\n  return unit(n) is ''\n\n-larger-than-scale(n)\n  return (n > (length(rupture.scale) - 1)) and -on-scale(n)\n\n-is-zero(n)\n  return n is 0\n\n-overlap-shift(anti-overlap, n)\n  shift-unit = unit(n)\n  anti-overlap = 0px unless anti-overlap\n  anti-overlap = 1px if anti-overlap is true\n  if length(anti-overlap) is 1\n    return -convert-to(shift-unit, anti-overlap)\n  for val in anti-overlap\n    return val if unit(val) is shift-unit\n\n-adjust-overlap(anti-overlap, n, side = 'min')\n  -shift = -overlap-shift(anti-overlap, n)\n  if (side is 'min' and -shift > 0) or (side is 'max' and -shift < 0)\n    n = n + -shift\n  return n\n\n-is-positive(n)\n  return n >= 0\n\n-density-queries(density)\n  if typeof(density) is not 'unit'\n    if not -is-string(density)\n      density = '%s' % density\n  density = rupture.retina-density if density is 'retina'\n  queries = ()\n  for query in rupture.density-queries\n    if query is 'webkit'\n      push(queries, '(-webkit-min-device-pixel-ratio: %s)' % (density))\n    else if query is 'moz'\n      push(queries, '(min--moz-device-pixel-ratio: %s)' % (density))\n    else if query is 'o'\n      push(queries, '(-o-min-device-pixel-ratio: %s/1)' % (density))\n    else if query is 'ratio'\n      push(queries, '(min-device-pixel-ratio: %s)' % (density))\n    else if query is 'dpi'\n      if -is-string(density)\n        density=convert(density)\n      push(queries, '(min-resolution: %sdpi)' % (round(density * 96, 1)))\n    else if query is 'dppx'\n      push(queries, '(min-resolution: %sdppx)' % (density))\n  return queries\n\ncreate-fallback-class(selected, class)\n  /{'' + class + ' ' + selected}\n    {block}\n\n// +between(min, max)\n// usage (scale can be mixed with custom values):\n//   - +between(1, 3) scale:scale\n//   - +between(0, 3) 0 width:scale\n//   - +between(200px, 500px) custom:custom\n//   - +between(0, 300px) 0 width:custom\n//   - +between(1, 300px) scale:custom\n//   - +between(200px, 4) custom:scale\n\nbetween(min, max, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  selected = selector()\n\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  if -is-string(min)\n    min = -get-scale-number(min)\n  if -is-string(max)\n    max = -get-scale-number(max)\n\n  -min = rupture.scale[min - 1] unless -is-zero(min) or (not -on-scale(min))\n  -max = rupture.scale[max] unless not -on-scale(max)\n  -min ?= min\n  -max ?= max\n\n  if (rupture.rasterise-media-queries)\n    if not (density or -max or orientation)\n      {block}\n  else\n    condition = 'only screen'\n    use-device-width = use-device-width ? 'device-' : ''\n    unless -min is 0\n      -min = -convert-to('em', -min) if rupture.enable-em-breakpoints\n      -min = -adjust-overlap(anti-overlap, -min, side: 'min')\n      condition = condition + ' and (min-' + use-device-width + 'width: %s)' % (-min)\n    unless -larger-than-scale(max)\n      -max = -convert-to('em', -max) if rupture.enable-em-breakpoints\n      -max = -adjust-overlap(anti-overlap, -max, side: 'max')\n      condition = condition + ' and (max-' + use-device-width + 'width: %s)' % (-max)\n    if orientation\n      condition = condition + ' and (orientation: %s)' % (orientation)\n    if density\n      conditions = ()\n      for query in -density-queries(density)\n        push(conditions, condition + ' and %s' % (query))\n      condition = join(', ', conditions)\n    @media condition\n      {block}\n  if fallback-class\n    +create-fallback-class(selected, fallback-class)\n      {block}\n\nat(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(scale-point, scale-point, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nfrom-width(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(scale-point, length(rupture.scale), anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nabove = from-width\n\nto-width(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(1, scale-point, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nbelow = to-width\n\nmobile(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +below(rupture.mobile-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ntablet(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(rupture.mobile-cutoff, rupture.desktop-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ndesktop(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +above(rupture.desktop-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nhd(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +above(rupture.hd-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ndensity(density, orientation = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    conditions = ()\n    for query in -density-queries(density)\n      condition = 'only screen and %s' % (query)\n      if orientation\n        condition = condition + ' and (orientation: %s)' % (orientation)\n      push(conditions, condition)\n    condition = join(', ', conditions)\n    @media condition\n      {block}\n    if fallback-class\n      +create-fallback-class(selected, fallback-class)\n        {block}\n\npixel-ratio = density\n\nretina(orientation = null, fallback-class = null)\n  +density('retina', orientation, fallback-class)\n    {block}\n\nlandscape(density = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    if -is-string(density)\n      density = convert(density)\n    if density\n      +pixel-ratio(density, orientation: landscape, fallback-class)\n        {block}\n    else\n      @media only screen and (orientation: landscape)\n        {block}\n      if fallback-class\n        +create-fallback-class(selected, fallback-class)\n          {block}\n\nportrait(density = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    if -is-string(density)\n      density = convert(density)\n    if density\n      +pixel-ratio(density, orientation: portrait, fallback-class)\n        {block}\n    else\n      @media only screen and (orientation: portrait)\n        {block}\n      if fallback-class\n        +create-fallback-class(selected, fallback-class)\n          {block}\n",".repoInfo\n\tz-index 1\n\tposition fixed\n\tbox-sizing border-box\n\tcol(1/4, gutter:1)\n\t+above(100em)\n\t\tcol(1/5, gutter:1)\n\tbackground-color $color1\n\tpadding-left 1em\n\tmin-height 10.45em\n\toverflow hidden\n\tborder 0.15em solid #111\n\tborder-radius 2em\n\tborder-bottom-right-radius 0em\n\tborder-bottom-left-radius 0em\n\tborder-bottom 0\n\ttransition background-color 0.5s linear\n\t&[data-shade=\"0\"], &[data-shade=1]\n\t\tbackground-color $color1\n\t&[data-shade=\"2\"]\n\t\tbackground-color lighten($color1, 20%)\n\t&[data-shade=\"3\"]\n\t\tbackground-color lighten($color1, 40%)\n\t&[data-shade=\"4\"]\n\t\tbackground-color lighten($color1, 60%)\n\t&[data-shade=\"5\"]\n\t\tbackground-color lighten($color1, 80%)\n\t&[data-shade=\"6\"]\n\t\tbackground-color white\n\t> img\n\t\twidth 4.5em\n\t\tposition absolute\n\t\tleft -0.25em\n\t\ttop 0\n\t\tborder-top-right-radius 2em\n\t\tborder-bottom-right-radius 2em\n\t> h2\n\t\tmargin-top 0.2em\n\t\tmargin-left 2em\n\t\tfont-size 2.3rem\n\t\tpadding-bottom 0\n\t\tmargin-bottom 0\n\t> span\n\t\tdisplay inline-block\n\t\tmargin-top -0.2em\n\t\tmargin-left 5em\n\t\tmargin-bottom 0.4em\n\t\tfont-size 1em\n\t\tfont-weight bold\n\t\tfont-style italic\n\t\tcolor darken($color4, 80%)\n\t\tfont-family 'Open Sans'\n\t> ul\n\t\tmargin-left -0.5em\n\t\tpadding 0\n\t\tfont-family 'Open Sans'\n\t\tfont-size 0.9em\n\t\tcolor #111\n\t\t> li\n\t\t\tpadding 0\n\t\t\twidth 100%\n\t\t\ttext-align left\n\t\t","_getListHeight(a,b)\n\t{(a * b + 10) %}\n\n.commit\n\tposition absolute\n\tbox-sizing border-box\n\ttop 0\n\tleft 0\n\twidth 100%\n\tpadding 1em\n\tmargin-bottom 1.25em\n\theight 10em\n\toverflow hidden\n\tborder-bottom-right-radius 0em\n\t/*box-shadow 2px 5px 5px rgba(#333, 0.3)*/\n\tbackground-color white\n\tfont-size 1rem\n\tborder 0.15em solid #111\n\ttransition all 1s ease-out\n\tanimation fadeIn 1s ease-in forwards\n\tanimation-iteration-count 1\n\t\n\tfor i in (0..100)\n\t\t&:nth-of-type({i})\n\t\t\ttransform translateY(_getListHeight(i - 1, 110))\n\t\t\t\n\n\t&:nth-of-type(2)\n\t\tbackground-color $color1\n\t&:nth-of-type(3)\n\t\tbackground-color lighten($color1, 20%)\n\t&:nth-of-type(4)\n\t\tbackground-color lighten($color1, 40%)\n\t&:nth-of-type(5)\n\t\tbackground-color lighten($color1, 60%)\n\t&:nth-of-type(6)\n\t\tbackground-color lighten($color1, 80%)\n\n\t> strong\n\t\tdisplay block\n\t\tfloat left\n\t\twidth 100%\n\t\tmargin-top 0.5em\n\t\tcolor darken($color1, 90%)\n\t\tfont-style italic\n\t\tfont-family 'Open Sans'\n\t\tfont-weight normal\n\t> span\n\t\tz-index 1\n\t\tposition absolute\n\t\tbottom 0.5em\n\t\tright 0.5em\n\t\tfont-family 'Open Sans'\n\t\tfont-size 0.8em\n\t&:after\n\t\tz-index 0\n\t\tcontent ''\n\t\tposition absolute\n\t\tdisplay block\n\t\tbottom 0\n\t\tleft 0\n\t\twidth 100%\n\t\theight 2.5em\n\n\n\n@keyframes fadeIn\n\tfrom\n\t\topacity 0\n\tto \n\t\topacity 1",".user\n\tdisplay block\n\twidth 100%\n\tfont-size 1em\n\theight auto\n\timg\n\t\tfloat left\n\t\twidth 2.5em\n\t\theight auto\n\t\tborder-radius 2.5em\n\t\tborder 0.2em solid darken($color5, 85%)\n\tstrong\n\t\tfloat left\n\t\tdisplay inline-block\n\t\theight auto\n\t\tpadding-left 0.5em\n\t\tfont-size 1.8em\n\t\tline-height 1.5em\n\t\n\t/* Contexts */\n\t.repoTopCommitter &\n\t\twidth 100%\n\t\ttext-align center\n\t\tcolor white\n\t\timg, strong\n\t\t\tfloat none\n\t\t\tdisplay block\n\t\t\tmargin auto\n\t\t\tpadding 0",".footer \n\tz-index 2\n\tposition fixed\n\tbottom 0\n\tleft 0\n\twidth 100%\n\tbackground-color rgba(lighten($color5, 90%), 0.95)\n\tfont-size 1.25em\n\tfont-family 'Open Sans'\n\t.widgetToggle, label\n\t\tfloat left\n\t\tmargin 1.5em\n\t\t&:hover\n\t\t\tcursor pointer\n\t\ti \n\t\t\tdisplay inline-block\n\t\t\tmargin-right 0.5em\n",".widgets\n\tposition fixed\n\twidth 100%\n\tbottom 3.5em\n\tleft 0\n\t\n\t\n\n.widget\n\tcol(1/2)\n\tmin-height 4em\n\tpadding 0.25em 1em\n\tmargin-left 0\n\tbox-sizing border-box\n\tbackground-color rgba(darken(complement($color1), 50), 0.95)\n\tcolor white\n\ttransition margin-left 0.7s ease-in-out\n\th2\n\t\tfont-family 'Open Sans'\n\t\ttext-transform uppercase\n\t&--hidden\n\t\tmargin-left -50%\n\t&--topCommitters\n\t\t&__entry\n\t\t\tposition relative\n\t\t\tfloat left\n\t\t\tdisplay inline-block\n\t\t\twidth 50%\n\t\t\tpadding-left 3.5em\n\t\t\tbox-sizing border-box\n\t\t\tmin-height 6em\n\t\t\t> label\n\t\t\t\tposition absolute\n\t\t\t\ttop 0\n\t\t\t\tleft 0\n\t\t\t\tfont-size 2.5em\n\t\t\t\t&:before\n\t\t\t\t\tcontent '#'\n\t\t\t> span\n\t\t\t\tline-height 2.6em\n\t\t\t\tpadding-left 1em\n\t\t\t\t"],"sourceRoot":"/source/"}
+{"version":3,"sources":["core.styl","core.css","components/header.styl","components/repo.styl","../../node_modules/jeet/stylus/jeet/_grid.styl","../../node_modules/rupture/rupture/index.styl","components/repoInfo.styl","components/commit.styl","components/user.styl","components/footer.styl"],"names":[],"mappings":";AAYA,wDAAA;;ACTA,uGAAsG;;AAEtG,yGDWC;;AEhBD,yEAAA;;ADSA,0ECPC;;ADSD,0ECPC;;ADSD,2ECPC;;ADSD,8ECPC;;ADSD,+EAA8E;;AAE9E,+ECRE;;ADUF,iFAAgF;;AAEhF,0EEnBC;;AFqBD,4EGCE;;AHCF,yEGCE;;AHCF,sDGCc;AHAd,oFGCuB;;AHCvB,uDEvBC;AFwBD;EErBE,kCAAA;EFuBD;;AAED,uDAAsD;AEzBpD;EF2BA,qBAAoB;EE3BpB;;AAAA,0EAAA;;AAAA,qEAAA;;AAAA,mEAAA;AFmCF;EEnCE,iBAAA;EFqCA,aAAY;EErCZ,iBAAA;EFuCA,QAAO;EEvCP,SAAA;EFyCA,YAAW;EEzCX,kBAAA;EF2CA,2BAA0B;EE3C1B,sCAAA;UAAA,8BAAA;EF6CD;;AAED,oEAAmE;AE/CjE;EFiDA,yCAAwC;EEjDxC,0CAAA;EFmDD;;AAED,oEAAmE;;AAEnE,mEAAkE;;AAElE,iEAAgE;AEzD9D;EF2DA,oBAAmB;GE3DnB,SAAA;EF6DA,aAAY;EE7DZ,aAAA;EF+DA,qBAAoB;EE/DpB,eAAA;EFiEA,iBAAgB;EEjEhB,kBAAA;EFmEA,gBAAe;EEnEf,kBAAA;EFqEA,qCAA4B;UAA5B,6BAA4B;AErE5B;sDFuEmD;AEvEnD;sDFyEmD;AEzEnD;sDF2EmD;AE3EnD;sDF6EmD;AE7EnD;sDF+EmD;AE/EnD;sDFiFmD;AEjFnD;sDFmFmD;AEnFnD;sDFqFmD;AErFnD;sDFuFmD;AEvFnD;sDFyFmD;AEzFnD;sDF2FmD;AE3FnD;sDF6FmD;AE7FnD;sDF+FmD;AE/FnD;sDFiGmD;AEjGnD;sDFmGmD;AEnGnD;sDFqGmD;AErGnD;sDFuGmD;AEvGnD;sDFyGmD;AEzGnD;sDF2GmD;AE3GnD;sDF6GmD;AE7GnD;sDF+GmD;AE/GnD;sDFiHmD;AEjHnD;sDFmHmD;AEnHnD;sDFqHmD;AErHnD;sDFuHmD;AEvHnD;sDFyHmD;AACrD;sDG6IE;AAAU;sDACR;AH1IJ;sDACqD;AG4InD;sDACE;AH1IJ;sDG/FI;AHiGJ;sDACqD;AIF1C;sDAAA;AJKX;sDG1HE;AH4HF;sDG1HE;AH4HF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","file":"core.css","sourcesContent":["@import 'jeet'\r\n@import 'rupture'\r\n\r\n@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px')\r\n\r\n$color1 = saturate(#E8D0A9, 100)\r\n$color2 = saturate(#B7AFA3, 100)\r\n$color3 = saturate(#C1DAD6, 100)\r\n$color4 = saturate(#F5FAFA, 100)\r\n$color5 = saturate(#ACD1E9, 100)\r\n$color6 = saturate(#6D929B, 100)\r\n\r\nhtml\r\n\tfont-family 'Slabo 27px', serif\r\n\r\nbody\r\n\tbackground $color5\r\n\t\r\n\r\n@import 'components/header'\r\n@import 'components/repo'\r\n@import 'components/repoInfo'\r\n@import 'components/commit'\r\n@import 'components/user'\r\n\r\n@import 'components/footer'\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n","\n/* line 286 : c:\\projects\\react\\app\\styles\\core.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\gulp-stylus\\node_modules\\stylus\\lib\\functions\\index.styl */\n\n/* line 260 : c:\\projects\\react\\node_modules\\gulp-stylus\\node_modules\\stylus\\lib\\functions\\index.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 17 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\index.styl */\n\n/* line 11 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\index.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_settings.styl */\n\n/* line 64 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_settings.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_functions.styl */\n\n/* line 281 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_functions.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n\n/* line 260 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n\n/* line 1 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 4 : c:\\projects\\react\\app\\styles\\core.styl */\n@import url(\"http://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px\");\n\n/* line 13 : c:\\projects\\react\\app\\styles\\core.styl */\nhtml {\n  font-family: 'Slabo 27px', serif;\n}\n\n/* line 16 : c:\\projects\\react\\app\\styles\\core.styl */\nbody {\n  background: #77dcff;\n}\n\n/* line 13 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n\n/* line 281 : c:\\projects\\react\\app\\styles\\components\\header.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\header.styl */\n.header {\n  position: fixed;\n  width: 100%;\n  height: 10.95em;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  box-shadow: none;\n  background-color: #77dcff;\n  transition: all 0.2s ease-in;\n}\n\n/* line 11 : c:\\projects\\react\\app\\styles\\components\\header.styl */\n.header--arching {\n  box-shadow: 5px 5px 5px rgba(0,0,0,0.6);\n  background-color: rgba(241,251,255,0.95);\n}\n\n/* line 14 : c:\\projects\\react\\app\\styles\\components\\header.styl */\n\n/* line 247 : c:\\projects\\react\\app\\styles\\components\\repo.styl */\n\n/* line 4 : c:\\projects\\react\\app\\styles\\components\\repo.styl */\n.repo {\n  position: relative;\n  *zoom: 1;\n  float: left;\n  clear: none;\n  text-align: inherit;\n  width: 24.25%;\n  margin-left: 0%;\n  margin-right: 1%;\n  display: block;\n  min-height: 100%;\n  transition: all 1s ease-out;\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n/*&:nth-of-type({i})\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/\n}\n\n/* line 276 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:before,\n.repo:after {\n  content: '';\n  display: table;\n}\n\n/* line 280 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:after {\n  clear: both;\n}\n\n/* line 48 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repo:last-child {\n  margin-right: 0%;\n}\n@media only screen and (min-width: 100em) {\n\n/* line 144 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n  .repo {\n    *zoom: 1;\n    float: left;\n    clear: none;\n    text-align: inherit;\n    width: 19.2%;\n    margin-left: 0%;\n    margin-right: 1%;\n  }\n\n/* line 276 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:before,\n  .repo:after {\n    content: '';\n    display: table;\n  }\n\n/* line 280 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:after {\n    clear: both;\n  }\n\n/* line 48 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repo:last-child {\n    margin-right: 0%;\n  }\n}\n\n/* line 62 : c:\\projects\\react\\app\\styles\\components\\repo.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo {\n  z-index: 1;\n  position: fixed;\n  box-sizing: border-box;\n  *zoom: 1;\n  float: left;\n  clear: none;\n  text-align: inherit;\n  width: 24.25%;\n  margin-left: 0%;\n  margin-right: 1%;\n  background-color: #ffdd73;\n  padding-left: 1em;\n  min-height: 10.45em;\n  overflow: hidden;\n  border: 0.15em solid #111;\n  border-radius: 2em;\n  border-bottom-right-radius: 0em;\n  border-bottom-left-radius: 0em;\n  border-bottom: 0;\n  transition: background-color 0.5s linear;\n}\n\n/* line 276 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:before,\n.repoInfo:after {\n  content: '';\n  display: table;\n}\n\n/* line 280 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:after {\n  clear: both;\n}\n\n/* line 48 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n.repoInfo:last-child {\n  margin-right: 0%;\n}\n@media only screen and (min-width: 100em) {\n\n/* line 144 : c:\\projects\\react\\node_modules\\rupture\\rupture\\index.styl */\n  .repoInfo {\n    *zoom: 1;\n    float: left;\n    clear: none;\n    text-align: inherit;\n    width: 19.2%;\n    margin-left: 0%;\n    margin-right: 1%;\n  }\n\n/* line 276 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:before,\n  .repoInfo:after {\n    content: '';\n    display: table;\n  }\n\n/* line 280 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:after {\n    clear: both;\n  }\n\n/* line 48 : c:\\projects\\react\\node_modules\\jeet\\stylus\\jeet\\_grid.styl */\n  .repoInfo:last-child {\n    margin-right: 0%;\n  }\n}\n\n/* line 18 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"0\"],\n.repoInfo[data-shade=1] {\n  background-color: #ffdd73;\n}\n\n/* line 20 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"2\"] {\n  background-color: #ffe48f;\n}\n\n/* line 22 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"3\"] {\n  background-color: #ffebab;\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"4\"] {\n  background-color: #fff1c7;\n}\n\n/* line 26 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"5\"] {\n  background-color: #fff8e3;\n}\n\n/* line 28 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo[data-shade=\"6\"] {\n  background-color: #fff;\n}\n\n/* line 30 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > img {\n  width: 4.5em;\n  position: absolute;\n  left: -0.25em;\n  top: 0;\n  border-top-right-radius: 2em;\n  border-bottom-right-radius: 2em;\n}\n\n/* line 37 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > h2 {\n  margin-top: 0.2em;\n  margin-left: 2em;\n  font-size: 2.3rem;\n  padding-bottom: 0;\n  margin-bottom: 0;\n}\n\n/* line 43 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > span {\n  display: inline-block;\n  margin-top: -0.2em;\n  margin-left: 5em;\n  margin-bottom: 0.4em;\n  font-size: 1em;\n  font-weight: bold;\n  font-style: italic;\n  color: #006363;\n  font-family: 'Open Sans';\n}\n\n/* line 53 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > ul {\n  margin-left: -0.5em;\n  padding: 0;\n  font-family: 'Open Sans';\n  font-size: 0.9em;\n  color: #111;\n}\n\n/* line 59 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n.repoInfo > ul > li {\n  padding: 0;\n  width: 100%;\n  text-align: left;\n}\n\n/* line 71 : c:\\projects\\react\\app\\styles\\components\\repoInfo.styl */\n\n/* line 247 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n\n/* line 4 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit {\n  position: absolute;\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  width: 100%;\n  padding: 1em;\n  margin-bottom: 1.25em;\n  height: 10em;\n  overflow: hidden;\n  border-bottom-right-radius: 0em;\n/*box-shadow 2px 5px 5px rgba(#333, 0.3)*/\n  background-color: #fff;\n  font-size: 1rem;\n  border: 0.15em solid #111;\n  transition: all 1s ease-out;\n  animation: fadeIn 1s ease-in forwards;\n  animation-iteration-count: 1;\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(0) {\n  transform: translateY(-100%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(1) {\n  transform: translateY(10%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(2) {\n  transform: translateY(120%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(3) {\n  transform: translateY(230%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(4) {\n  transform: translateY(340%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(5) {\n  transform: translateY(450%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(6) {\n  transform: translateY(560%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(7) {\n  transform: translateY(670%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(8) {\n  transform: translateY(780%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(9) {\n  transform: translateY(890%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(10) {\n  transform: translateY(1000%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(11) {\n  transform: translateY(1110%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(12) {\n  transform: translateY(1220%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(13) {\n  transform: translateY(1330%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(14) {\n  transform: translateY(1440%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(15) {\n  transform: translateY(1550%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(16) {\n  transform: translateY(1660%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(17) {\n  transform: translateY(1770%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(18) {\n  transform: translateY(1880%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(19) {\n  transform: translateY(1990%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(20) {\n  transform: translateY(2100%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(21) {\n  transform: translateY(2210%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(22) {\n  transform: translateY(2320%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(23) {\n  transform: translateY(2430%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(24) {\n  transform: translateY(2540%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(25) {\n  transform: translateY(2650%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(26) {\n  transform: translateY(2760%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(27) {\n  transform: translateY(2870%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(28) {\n  transform: translateY(2980%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(29) {\n  transform: translateY(3090%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(30) {\n  transform: translateY(3200%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(31) {\n  transform: translateY(3310%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(32) {\n  transform: translateY(3420%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(33) {\n  transform: translateY(3530%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(34) {\n  transform: translateY(3640%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(35) {\n  transform: translateY(3750%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(36) {\n  transform: translateY(3860%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(37) {\n  transform: translateY(3970%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(38) {\n  transform: translateY(4080%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(39) {\n  transform: translateY(4190%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(40) {\n  transform: translateY(4300%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(41) {\n  transform: translateY(4410%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(42) {\n  transform: translateY(4520%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(43) {\n  transform: translateY(4630%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(44) {\n  transform: translateY(4740%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(45) {\n  transform: translateY(4850%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(46) {\n  transform: translateY(4960%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(47) {\n  transform: translateY(5070%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(48) {\n  transform: translateY(5180%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(49) {\n  transform: translateY(5290%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(50) {\n  transform: translateY(5400%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(51) {\n  transform: translateY(5510%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(52) {\n  transform: translateY(5620%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(53) {\n  transform: translateY(5730%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(54) {\n  transform: translateY(5840%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(55) {\n  transform: translateY(5950%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(56) {\n  transform: translateY(6060%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(57) {\n  transform: translateY(6170%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(58) {\n  transform: translateY(6280%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(59) {\n  transform: translateY(6390%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(60) {\n  transform: translateY(6500%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(61) {\n  transform: translateY(6610%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(62) {\n  transform: translateY(6720%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(63) {\n  transform: translateY(6830%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(64) {\n  transform: translateY(6940%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(65) {\n  transform: translateY(7050%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(66) {\n  transform: translateY(7160%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(67) {\n  transform: translateY(7270%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(68) {\n  transform: translateY(7380%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(69) {\n  transform: translateY(7490%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(70) {\n  transform: translateY(7600%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(71) {\n  transform: translateY(7710%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(72) {\n  transform: translateY(7820%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(73) {\n  transform: translateY(7930%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(74) {\n  transform: translateY(8040%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(75) {\n  transform: translateY(8150%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(76) {\n  transform: translateY(8260%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(77) {\n  transform: translateY(8370%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(78) {\n  transform: translateY(8480%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(79) {\n  transform: translateY(8590%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(80) {\n  transform: translateY(8700%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(81) {\n  transform: translateY(8810%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(82) {\n  transform: translateY(8920%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(83) {\n  transform: translateY(9030%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(84) {\n  transform: translateY(9140%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(85) {\n  transform: translateY(9250%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(86) {\n  transform: translateY(9360%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(87) {\n  transform: translateY(9470%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(88) {\n  transform: translateY(9580%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(89) {\n  transform: translateY(9690%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(90) {\n  transform: translateY(9800%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(91) {\n  transform: translateY(9910%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(92) {\n  transform: translateY(10020%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(93) {\n  transform: translateY(10130%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(94) {\n  transform: translateY(10240%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(95) {\n  transform: translateY(10350%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(96) {\n  transform: translateY(10460%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(97) {\n  transform: translateY(10570%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(98) {\n  transform: translateY(10680%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(99) {\n  transform: translateY(10790%);\n}\n\n/* line 24 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(100) {\n  transform: translateY(10900%);\n}\n\n/* line 28 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(2) {\n  background-color: #ffdd73;\n}\n\n/* line 30 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(3) {\n  background-color: #ffe48f;\n}\n\n/* line 32 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(4) {\n  background-color: #ffebab;\n}\n\n/* line 34 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(5) {\n  background-color: #fff1c7;\n}\n\n/* line 36 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:nth-of-type(6) {\n  background-color: #fff8e3;\n}\n\n/* line 39 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit > strong {\n  display: block;\n  float: left;\n  width: 100%;\n  margin-top: 0.5em;\n  color: #251c00;\n  font-style: italic;\n  font-family: 'Open Sans';\n  font-weight: normal;\n}\n\n/* line 48 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit > span {\n  z-index: 1;\n  position: absolute;\n  bottom: 0.5em;\n  right: 0.5em;\n  font-family: 'Open Sans';\n  font-size: 0.8em;\n}\n\n/* line 55 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n.commit:after {\n  z-index: 0;\n  content: '';\n  position: absolute;\n  display: block;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2.5em;\n}\n\n/* line 67 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n@-moz-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n@-webkit-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n@-o-keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 67 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n@keyframes fadeIn {\n\n/* line 68 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  from {\n    opacity: 0;\n  }\n\n/* line 70 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n  to {\n    opacity: 1;\n  }\n}\n\n/* line 29 : c:\\projects\\react\\app\\styles\\components\\commit.styl */\n\n/* line 71 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n.user {\n  display: block;\n  width: 100%;\n  font-size: 1em;\n  height: auto;\n/* Contexts */\n}\n\n/* line 6 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n.user img {\n  float: left;\n  width: 2.5em;\n  height: auto;\n  border-radius: 2.5em;\n  border: 0.2em solid #002a38;\n}\n\n/* line 12 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n.user strong {\n  float: left;\n  display: inline-block;\n  height: auto;\n  padding-left: 0.5em;\n  font-size: 1.8em;\n  line-height: 1.5em;\n}\n\n/* line 21 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n.repoTopCommitter .user {\n  width: 100%;\n  text-align: center;\n  color: #fff;\n}\n\n/* line 25 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n.repoTopCommitter .user img,\n.repoTopCommitter .user strong {\n  float: none;\n  display: block;\n  margin: auto;\n  padding: 0;\n}\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\user.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\footer.styl */\n\n/* line 1 : c:\\projects\\react\\app\\styles\\components\\footer.styl */\n.footer {\n  z-index: 2;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  background-color: rgba(241,251,255,0.95);\n  font-size: 1.25em;\n}\n\n/* line 9 : c:\\projects\\react\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle,\n.footer label {\n  float: left;\n  margin: 1.5em;\n}\n\n/* line 12 : c:\\projects\\react\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle:hover,\n.footer label:hover {\n  cursor: pointer;\n}\n\n/* line 14 : c:\\projects\\react\\app\\styles\\components\\footer.styl */\n.footer .widgetToggle i,\n.footer label i {\n  display: inline-block;\n  margin-right: 0.5em;\n}\n",".header\r\n\tposition fixed\r\n\twidth 100%\r\n\theight 10.95em\r\n\ttop 0\r\n\tleft 0\r\n\tz-index 1\r\n\tbox-shadow none\t\r\n\tbackground-color $color5\r\n\ttransition all 0.2s ease-in \r\n\t&--arching\r\n\t\tbox-shadow 5px 5px 5px rgba(black, 0.6)\r\n\t\tbackground-color rgba(lighten($color5, 90%), 0.95)","_getTranslateX(a,b)\r\n\t{(a * b + 5) %}\r\n\r\n.repo\r\n\tposition relative\r\n\tcol(1/4, gutter:1)\r\n\t+above(100em)\r\n\t\tcol(1/5, gutter:1)\r\n\tdisplay block\r\n\tmin-height 100%\r\n\ttransition all 1s ease-out\r\n\tfor i in (1..50)\r\n\t\t/*&:nth-of-type({i})\r\n\t\t\ttransform translateX(_getTranslateX(i - 1, 105))*/","/**\n * Style an element as a column with a gutter.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [offset=0] - A offset specified as a fraction (see ratios).\n * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.\n * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn(ratios = 1, offset = 0, cycle = 0, uncycle = 0, gutter = jeet.gutter)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n  column-widths = jeet-get-column(ratios, gutter)\n  margin-last = 0\n  margin-l = margin-last\n  margin-r = column-widths[1]\n\n  unless offset == 0\n    if offset < 0\n      offset *= -1\n      offset = jeet-get-column(offset, column-widths[1])[0]\n      margin-r = margin-last = offset + column-widths[1] * 2\n    else\n      offset = jeet-get-column(offset, column-widths[1])[0]\n      margin-l = offset + column-widths[1]\n\n  cf()\n  float: side\n  clear: none\n  text-align: inherit\n  width: (column-widths[0])%\n  margin-{side}: (margin-l)%\n  margin-{opposite-side}: (margin-r)%\n\n  if uncycle != 0\n    &:nth-child({uncycle}n)\n      margin-{opposite-side}: (margin-r)%\n      float: side\n    &:nth-child({uncycle}n+1)\n      clear: none\n\n  if cycle != 0\n    &:nth-child({cycle}n)\n      margin-{opposite-side}: (margin-last)%\n      float: opposite-side\n    &:nth-child({cycle}n+1)\n      clear: both\n   else\n    &:last-child\n      margin-{opposite-side}: (margin-last)%\n\n/**\n * An alias for the column mixin.\n */\ncol = column\n\n/**\n * Get the width of a column and nothing else.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn-width(ratios = 1, gutter = jeet.gutter)\n  return jeet-get-column(ratios, gutter)[0] + '%'\n\n/**\n * An alias for the column-width function.\n */\ncw = column-width\n\n/**\n * Get the gutter size of a column and nothing else.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\ncolumn-gutter(ratios = 1, gutter = jeet.gutter)\n  return jeet-get-column(ratios, gutter)[1] + '%'\n\n/**\n * An alias for the column-gutter function.\n */\ncg = column-gutter\n\n/**\n * Style an element as a column without any gutters for a seamless row.\n * @param {number} [ratios=1] - A width relative to its container as a fraction.\n * @param {number} [offset=0] - A offset specified as a fraction (see ratios).\n * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.\n * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.\n */\nspan(ratio = 1, offset = 0, cycle = 0, uncycle = 0)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n  span-width = jeet-get-span(ratio)\n  margin-r = 0\n  margin-l = margin-r\n\n  unless offset == 0\n    if offset < 0\n      offset *= -1\n      margin-r = jeet-get-span(offset)\n    else\n      margin-l = jeet-get-span(offset)\n\n  cf()\n  float: side\n  clear: none\n  text-align: inherit\n  width: (span-width)%\n  margin-{side}: (margin-l)%\n  margin-{opposite-side}: (margin-r)%\n\n  if cycle != 0\n    &:nth-child({cycle}n)\n      float: opposite-side\n    &:nth-child({cycle}n + 1)\n      clear: both\n\n  if uncycle != 0\n    &:nth-child({uncycle}n)\n      float: side\n    &:nth-child({uncycle}n + 1)\n      clear: none\n\n/**\n * Reorder columns without altering the HTML.\n * @param {number} [ratios=0] - Specify how far along you want the element to move.\n * @param {string} [col-or-span=column] - Specify whether the element has a gutter or not.\n * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.\n */\nshift(ratios = 0, col-or-span = column, gutter = jeet.gutter)\n  translate = ''\n  side = jeet-get-layout-direction()\n\n  if side == right\n    ratios = jeet-replace-nth(ratios, 0, ratios[0] * -1)\n\n  if col-or-span == column or col-or-span == col or col-or-span == c\n    column-widths = jeet-get-column(ratios, gutter)\n    translate = column-widths[0] + column-widths[1]\n  else\n    translate = jeet-get-span(ratios)\n\n  position: relative\n  left: (translate)%\n\n/**\n * Reset an element that has had shift() applied to it.\n */\nunshift()\n  position: static\n  left: 0\n\n/**\n * View the grid and its layers for easy debugging.\n * @param {string} [color=black] - The background tint applied.\n * @param {boolean} [important=false] - Whether to apply the style as !important.\n */\nedit(color = black, important = false)\n  if important\n    *\n      background: rgba(color, 5%) !important\n  else\n    *\n      background: rgba(color, 5%)\n\n/**\n *  Alias for edit().\n */\ndebug = edit\n\n/**\n * Horizontally center an element.\n * @param {number} [max-width=jeet.max-width] - The max width the element can be.\n * @param {number} [pad=0] - Specify the element's left and right padding.\n */\ncenter(max-width = jeet.max-width, pad = 0)\n  cf()\n  width: auto\n  max-width: max-width\n  float: none\n  display: unquote('block')\n  margin-right: auto\n  margin-left: auto\n  padding-left: pad\n  padding-right: pad\n\n/**\n * Uncenter an element.\n */\nuncenter()\n  max-width: none\n  margin-right: 0\n  margin-left: 0\n  padding-left: 0\n  padding-right: 0\n\n/**\n * Stack an element so that nothing is either side of it.\n * @param {number} [pad=0] - Specify the element's left and right padding.\n * @param {bollean/string} [align=false] - Specify the text align for the element.\n */\nstack(pad = 0, align = false)\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n\n  display: unquote('block')\n  clear: both\n  float: none\n  width: 100%\n  margin-left: auto\n  margin-right: auto\n\n  &:first-child\n    margin-{side}: auto\n\n  &:last-child\n    margin-{opposite-side}: auto\n\n  if pad != 0\n    padding-left: pad\n    padding-right: pad\n\n  if (align is not false)\n    if (align == center) or (align == c)\n      text-align: center\n    if (align == left) or (align == l)\n      text-align: left\n    if (align == right) or (align == r)\n      text-align: right\n\n/**\n * Unstack an element.\n */\nunstack()\n  side = jeet-get-layout-direction()\n  opposite-side = opposite-position(side)\n\n  text-align: side\n  display: inline\n  clear: none\n  width: auto\n  margin-left: 0\n  margin-right: 0\n\n  &:first-child\n    margin-{side}: 0\n\n  &:last-child\n    margin-{opposite-side}: 0\n\n/**\n * Center an element on either or both axes.\n * @requires A parent container with relative positioning.\n * @param {string} [direction=both] - Specify which axes to center the element on.\n */\nalign(direction = both)\n  position: absolute\n  transform-style: preserve-3d\n\n  if (direction == horizontal) or (direction == h)\n    left: 50%\n    transform: translateX(-50%)\n  else if (direction == vertical) or (direction == v)\n    top: 50%\n    transform: translateY(-50%)\n  else\n    top: 50%\n    left: 50%\n    transform: translate(-50%, -50%)\n\n/**\n * Apply a clearfix to an element.\n */\ncf()\n  *zoom: 1\n\n  &:before, &:after\n    content: ''\n    display: table\n\n  &:after\n    clear: both\n","base-font-size ?= 16px\nrasterise-media-queries ?= false\n\nrupture = {\n  rasterise-media-queries: rasterise-media-queries\n  mobile-cutoff: 400px\n  desktop-cutoff: 1050px\n  hd-cutoff: 1800px\n  enable-em-breakpoints: false\n  base-font-size: base-font-size\n  anti-overlap: false\n  density-queries: 'dppx' 'webkit' 'moz' 'dpi'\n  retina-density: 1.5\n  use-device-width: false\n}\nrupture.scale = 0 (rupture.mobile-cutoff) 600px 800px (rupture.desktop-cutoff) (rupture.hd-cutoff)\nrupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'\n\n-is-string(val)\n  if typeof(val) is not 'unit'\n    if val is a 'string' or val is a 'ident'\n      true\n    else\n      false\n  else\n    false\n\n-get-scale-number(scale-name)\n  for list-item, i in rupture.scale-names\n    if list-item is scale-name\n      return i + 1\n  return false\n\n-convert-to(to-unit, value, context = rupture.base-font-size)\n  from-unit = unit(value)\n  return value if to-unit is from-unit\n  if to-unit in ('em' 'rem')\n    return value if from-unit in ('em' 'rem')\n    return unit((value / context), to-unit)\n  if to-unit is 'px'\n    return unit((value * context), 'px')\n\n-on-scale(n)\n  return unit(n) is ''\n\n-larger-than-scale(n)\n  return (n > (length(rupture.scale) - 1)) and -on-scale(n)\n\n-is-zero(n)\n  return n is 0\n\n-overlap-shift(anti-overlap, n)\n  shift-unit = unit(n)\n  anti-overlap = 0px unless anti-overlap\n  anti-overlap = 1px if anti-overlap is true\n  if length(anti-overlap) is 1\n    return -convert-to(shift-unit, anti-overlap)\n  for val in anti-overlap\n    return val if unit(val) is shift-unit\n\n-adjust-overlap(anti-overlap, n, side = 'min')\n  -shift = -overlap-shift(anti-overlap, n)\n  if (side is 'min' and -shift > 0) or (side is 'max' and -shift < 0)\n    n = n + -shift\n  return n\n\n-is-positive(n)\n  return n >= 0\n\n-density-queries(density)\n  if typeof(density) is not 'unit'\n    if not -is-string(density)\n      density = '%s' % density\n  density = rupture.retina-density if density is 'retina'\n  queries = ()\n  for query in rupture.density-queries\n    if query is 'webkit'\n      push(queries, '(-webkit-min-device-pixel-ratio: %s)' % (density))\n    else if query is 'moz'\n      push(queries, '(min--moz-device-pixel-ratio: %s)' % (density))\n    else if query is 'o'\n      push(queries, '(-o-min-device-pixel-ratio: %s/1)' % (density))\n    else if query is 'ratio'\n      push(queries, '(min-device-pixel-ratio: %s)' % (density))\n    else if query is 'dpi'\n      if -is-string(density)\n        density=convert(density)\n      push(queries, '(min-resolution: %sdpi)' % (round(density * 96, 1)))\n    else if query is 'dppx'\n      push(queries, '(min-resolution: %sdppx)' % (density))\n  return queries\n\ncreate-fallback-class(selected, class)\n  /{'' + class + ' ' + selected}\n    {block}\n\n// +between(min, max)\n// usage (scale can be mixed with custom values):\n//   - +between(1, 3) scale:scale\n//   - +between(0, 3) 0 width:scale\n//   - +between(200px, 500px) custom:custom\n//   - +between(0, 300px) 0 width:custom\n//   - +between(1, 300px) scale:custom\n//   - +between(200px, 4) custom:scale\n\nbetween(min, max, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  selected = selector()\n\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  if -is-string(min)\n    min = -get-scale-number(min)\n  if -is-string(max)\n    max = -get-scale-number(max)\n\n  -min = rupture.scale[min - 1] unless -is-zero(min) or (not -on-scale(min))\n  -max = rupture.scale[max] unless not -on-scale(max)\n  -min ?= min\n  -max ?= max\n\n  if (rupture.rasterise-media-queries)\n    if not (density or -max or orientation)\n      {block}\n  else\n    condition = 'only screen'\n    use-device-width = use-device-width ? 'device-' : ''\n    unless -min is 0\n      -min = -convert-to('em', -min) if rupture.enable-em-breakpoints\n      -min = -adjust-overlap(anti-overlap, -min, side: 'min')\n      condition = condition + ' and (min-' + use-device-width + 'width: %s)' % (-min)\n    unless -larger-than-scale(max)\n      -max = -convert-to('em', -max) if rupture.enable-em-breakpoints\n      -max = -adjust-overlap(anti-overlap, -max, side: 'max')\n      condition = condition + ' and (max-' + use-device-width + 'width: %s)' % (-max)\n    if orientation\n      condition = condition + ' and (orientation: %s)' % (orientation)\n    if density\n      conditions = ()\n      for query in -density-queries(density)\n        push(conditions, condition + ' and %s' % (query))\n      condition = join(', ', conditions)\n    @media condition\n      {block}\n  if fallback-class\n    +create-fallback-class(selected, fallback-class)\n      {block}\n\nat(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(scale-point, scale-point, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nfrom-width(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(scale-point, length(rupture.scale), anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nabove = from-width\n\nto-width(scale-point, anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(1, scale-point, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nbelow = to-width\n\nmobile(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +below(rupture.mobile-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ntablet(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +between(rupture.mobile-cutoff, rupture.desktop-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ndesktop(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +above(rupture.desktop-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\nhd(anti-overlap = rupture.anti-overlap, density = null, orientation = null, use-device-width = rupture.use-device-width, fallback-class = null)\n  if -is-string(orientation)\n    orientation = convert(orientation)\n  if -is-string(density)\n    density = convert(density)\n  +above(rupture.hd-cutoff, anti-overlap, density, orientation, use-device-width, fallback-class)\n    {block}\n\ndensity(density, orientation = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    conditions = ()\n    for query in -density-queries(density)\n      condition = 'only screen and %s' % (query)\n      if orientation\n        condition = condition + ' and (orientation: %s)' % (orientation)\n      push(conditions, condition)\n    condition = join(', ', conditions)\n    @media condition\n      {block}\n    if fallback-class\n      +create-fallback-class(selected, fallback-class)\n        {block}\n\npixel-ratio = density\n\nretina(orientation = null, fallback-class = null)\n  +density('retina', orientation, fallback-class)\n    {block}\n\nlandscape(density = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    if -is-string(density)\n      density = convert(density)\n    if density\n      +pixel-ratio(density, orientation: landscape, fallback-class)\n        {block}\n    else\n      @media only screen and (orientation: landscape)\n        {block}\n      if fallback-class\n        +create-fallback-class(selected, fallback-class)\n          {block}\n\nportrait(density = null, fallback-class = null)\n  selected = selector()\n  if not (rupture.rasterise-media-queries)\n    if -is-string(density)\n      density = convert(density)\n    if density\n      +pixel-ratio(density, orientation: portrait, fallback-class)\n        {block}\n    else\n      @media only screen and (orientation: portrait)\n        {block}\n      if fallback-class\n        +create-fallback-class(selected, fallback-class)\n          {block}\n",".repoInfo\r\n\tz-index 1\r\n\tposition fixed\r\n\tbox-sizing border-box\r\n\tcol(1/4, gutter:1)\r\n\t+above(100em)\r\n\t\tcol(1/5, gutter:1)\r\n\tbackground-color $color1\r\n\tpadding-left 1em\r\n\tmin-height 10.45em\r\n\toverflow hidden\r\n\tborder 0.15em solid #111\r\n\tborder-radius 2em\r\n\tborder-bottom-right-radius 0em\r\n\tborder-bottom-left-radius 0em\r\n\tborder-bottom 0\r\n\ttransition background-color 0.5s linear\r\n\t&[data-shade=\"0\"], &[data-shade=1]\r\n\t\tbackground-color $color1\r\n\t&[data-shade=\"2\"]\r\n\t\tbackground-color lighten($color1, 20%)\r\n\t&[data-shade=\"3\"]\r\n\t\tbackground-color lighten($color1, 40%)\r\n\t&[data-shade=\"4\"]\r\n\t\tbackground-color lighten($color1, 60%)\r\n\t&[data-shade=\"5\"]\r\n\t\tbackground-color lighten($color1, 80%)\r\n\t&[data-shade=\"6\"]\r\n\t\tbackground-color white\r\n\t> img\r\n\t\twidth 4.5em\r\n\t\tposition absolute\r\n\t\tleft -0.25em\r\n\t\ttop 0\r\n\t\tborder-top-right-radius 2em\r\n\t\tborder-bottom-right-radius 2em\r\n\t> h2\r\n\t\tmargin-top 0.2em\r\n\t\tmargin-left 2em\r\n\t\tfont-size 2.3rem\r\n\t\tpadding-bottom 0\r\n\t\tmargin-bottom 0\r\n\t> span\r\n\t\tdisplay inline-block\r\n\t\tmargin-top -0.2em\r\n\t\tmargin-left 5em\r\n\t\tmargin-bottom 0.4em\r\n\t\tfont-size 1em\r\n\t\tfont-weight bold\r\n\t\tfont-style italic\r\n\t\tcolor darken($color4, 80%)\r\n\t\tfont-family 'Open Sans'\r\n\t> ul\r\n\t\tmargin-left -0.5em\r\n\t\tpadding 0\r\n\t\tfont-family 'Open Sans'\r\n\t\tfont-size 0.9em\r\n\t\tcolor #111\r\n\t\t> li\r\n\t\t\tpadding 0\r\n\t\t\twidth 100%\r\n\t\t\ttext-align left\r\n\t\t","_getListHeight(a,b)\r\n\t{(a * b + 10) %}\r\n\r\n.commit\r\n\tposition absolute\r\n\tbox-sizing border-box\r\n\ttop 0\r\n\tleft 0\r\n\twidth 100%\r\n\tpadding 1em\r\n\tmargin-bottom 1.25em\r\n\theight 10em\r\n\toverflow hidden\r\n\tborder-bottom-right-radius 0em\r\n\t/*box-shadow 2px 5px 5px rgba(#333, 0.3)*/\r\n\tbackground-color white\r\n\tfont-size 1rem\r\n\tborder 0.15em solid #111\r\n\ttransition all 1s ease-out\r\n\tanimation fadeIn 1s ease-in forwards\r\n\tanimation-iteration-count 1\r\n\t\r\n\tfor i in (0..100)\r\n\t\t&:nth-of-type({i})\r\n\t\t\ttransform translateY(_getListHeight(i - 1, 110))\r\n\t\t\t\r\n\r\n\t&:nth-of-type(2)\r\n\t\tbackground-color $color1\r\n\t&:nth-of-type(3)\r\n\t\tbackground-color lighten($color1, 20%)\r\n\t&:nth-of-type(4)\r\n\t\tbackground-color lighten($color1, 40%)\r\n\t&:nth-of-type(5)\r\n\t\tbackground-color lighten($color1, 60%)\r\n\t&:nth-of-type(6)\r\n\t\tbackground-color lighten($color1, 80%)\r\n\r\n\t> strong\r\n\t\tdisplay block\r\n\t\tfloat left\r\n\t\twidth 100%\r\n\t\tmargin-top 0.5em\r\n\t\tcolor darken($color1, 90%)\r\n\t\tfont-style italic\r\n\t\tfont-family 'Open Sans'\r\n\t\tfont-weight normal\r\n\t> span\r\n\t\tz-index 1\r\n\t\tposition absolute\r\n\t\tbottom 0.5em\r\n\t\tright 0.5em\r\n\t\tfont-family 'Open Sans'\r\n\t\tfont-size 0.8em\r\n\t&:after\r\n\t\tz-index 0\r\n\t\tcontent ''\r\n\t\tposition absolute\r\n\t\tdisplay block\r\n\t\tbottom 0\r\n\t\tleft 0\r\n\t\twidth 100%\r\n\t\theight 2.5em\r\n\r\n\r\n\r\n@keyframes fadeIn\r\n\tfrom\r\n\t\topacity 0\r\n\tto \r\n\t\topacity 1",".user\r\n\tdisplay block\r\n\twidth 100%\r\n\tfont-size 1em\r\n\theight auto\r\n\timg\r\n\t\tfloat left\r\n\t\twidth 2.5em\r\n\t\theight auto\r\n\t\tborder-radius 2.5em\r\n\t\tborder 0.2em solid darken($color5, 85%)\r\n\tstrong\r\n\t\tfloat left\r\n\t\tdisplay inline-block\r\n\t\theight auto\r\n\t\tpadding-left 0.5em\r\n\t\tfont-size 1.8em\r\n\t\tline-height 1.5em\r\n\t\r\n\t/* Contexts */\r\n\t.repoTopCommitter &\r\n\t\twidth 100%\r\n\t\ttext-align center\r\n\t\tcolor white\r\n\t\timg, strong\r\n\t\t\tfloat none\r\n\t\t\tdisplay block\r\n\t\t\tmargin auto\r\n\t\t\tpadding 0",".footer \r\n\tz-index 2\r\n\tposition fixed\r\n\tbottom 0\r\n\tleft 0\r\n\twidth 100%\r\n\tbackground-color rgba(lighten($color5, 90%), 0.95)\r\n\tfont-size 1.25em\r\n\t.widgetToggle, label\r\n\t\tfloat left\r\n\t\tmargin 1.5em\r\n\t\t&:hover\r\n\t\t\tcursor pointer\r\n\t\ti \r\n\t\t\tdisplay inline-block\r\n\t\t\tmargin-right 0.5em\r\n"],"sourceRoot":"/source/"}
 
-/* line 286 : c:\projects\react-dev-team\app\styles\core.styl */
+/* line 286 : c:\projects\react\app\styles\core.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\gulp-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 1 : c:\projects\react\node_modules\gulp-stylus\node_modules\stylus\lib\functions\index.styl */
 
-/* line 260 : c:\projects\react-dev-team\node_modules\gulp-stylus\node_modules\stylus\lib\functions\index.styl */
+/* line 260 : c:\projects\react\node_modules\gulp-stylus\node_modules\stylus\lib\functions\index.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 1 : c:\projects\react\node_modules\rupture\rupture\index.styl */
 
-/* line 17 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 17 : c:\projects\react\node_modules\rupture\rupture\index.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\index.styl */
+/* line 1 : c:\projects\react\node_modules\jeet\stylus\jeet\index.styl */
 
-/* line 11 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\index.styl */
+/* line 11 : c:\projects\react\node_modules\jeet\stylus\jeet\index.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_settings.styl */
+/* line 1 : c:\projects\react\node_modules\jeet\stylus\jeet\_settings.styl */
 
-/* line 64 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_settings.styl */
+/* line 64 : c:\projects\react\node_modules\jeet\stylus\jeet\_settings.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_functions.styl */
+/* line 1 : c:\projects\react\node_modules\jeet\stylus\jeet\_functions.styl */
 
-/* line 281 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_functions.styl */
+/* line 281 : c:\projects\react\node_modules\jeet\stylus\jeet\_functions.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 1 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 
-/* line 260 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 260 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 
-/* line 1 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 1 : c:\projects\react\node_modules\rupture\rupture\index.styl */
 
-/* line 4 : c:\projects\react-dev-team\app\styles\core.styl */
+/* line 4 : c:\projects\react\app\styles\core.styl */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700|Slabo+27px");
 
-/* line 13 : c:\projects\react-dev-team\app\styles\core.styl */
+/* line 13 : c:\projects\react\app\styles\core.styl */
 html {
   font-family: 'Slabo 27px', serif;
 }
 
-/* line 16 : c:\projects\react-dev-team\app\styles\core.styl */
+/* line 16 : c:\projects\react\app\styles\core.styl */
 body {
   background: #77dcff;
 }
 
-/* line 13 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 13 : c:\projects\react\node_modules\rupture\rupture\index.styl */
 
-/* line 281 : c:\projects\react-dev-team\app\styles\components\header.styl */
+/* line 281 : c:\projects\react\app\styles\components\header.styl */
 
-/* line 1 : c:\projects\react-dev-team\app\styles\components\header.styl */
+/* line 1 : c:\projects\react\app\styles\components\header.styl */
 .header {
   position: fixed;
   width: 100%;
@@ -59,17 +59,17 @@ body {
           transition: all 0.2s ease-in;
 }
 
-/* line 11 : c:\projects\react-dev-team\app\styles\components\header.styl */
+/* line 11 : c:\projects\react\app\styles\components\header.styl */
 .header--arching {
   box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
   background-color: rgba(241,251,255,0.95);
 }
 
-/* line 14 : c:\projects\react-dev-team\app\styles\components\header.styl */
+/* line 14 : c:\projects\react\app\styles\components\header.styl */
 
-/* line 247 : c:\projects\react-dev-team\app\styles\components\repo.styl */
+/* line 247 : c:\projects\react\app\styles\components\repo.styl */
 
-/* line 4 : c:\projects\react-dev-team\app\styles\components\repo.styl */
+/* line 4 : c:\projects\react\app\styles\components\repo.styl */
 .repo {
   position: relative;
   *zoom: 1;
@@ -185,25 +185,25 @@ body {
 			transform translateX(_getTranslateX(i - 1, 105))*/
 }
 
-/* line 276 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 276 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repo:before,
 .repo:after {
   content: '';
   display: table;
 }
 
-/* line 280 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 280 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repo:after {
   clear: both;
 }
 
-/* line 48 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 48 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repo:last-child {
   margin-right: 0%;
 }
 @media only screen and (min-width: 100em) {
 
-/* line 144 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 144 : c:\projects\react\node_modules\rupture\rupture\index.styl */
   .repo {
     *zoom: 1;
     float: left;
@@ -214,29 +214,29 @@ body {
     margin-right: 1%;
   }
 
-/* line 276 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 276 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repo:before,
   .repo:after {
     content: '';
     display: table;
   }
 
-/* line 280 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 280 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repo:after {
     clear: both;
   }
 
-/* line 48 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 48 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repo:last-child {
     margin-right: 0%;
   }
 }
 
-/* line 62 : c:\projects\react-dev-team\app\styles\components\repo.styl */
+/* line 62 : c:\projects\react\app\styles\components\repo.styl */
 
-/* line 1 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 1 : c:\projects\react\app\styles\components\repoInfo.styl */
 
-/* line 1 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 1 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo {
   z-index: 1;
   position: fixed;
@@ -261,25 +261,25 @@ body {
           transition: background-color 0.5s linear;
 }
 
-/* line 276 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 276 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repoInfo:before,
 .repoInfo:after {
   content: '';
   display: table;
 }
 
-/* line 280 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 280 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repoInfo:after {
   clear: both;
 }
 
-/* line 48 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 48 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
 .repoInfo:last-child {
   margin-right: 0%;
 }
 @media only screen and (min-width: 100em) {
 
-/* line 144 : c:\projects\react-dev-team\node_modules\rupture\rupture\index.styl */
+/* line 144 : c:\projects\react\node_modules\rupture\rupture\index.styl */
   .repoInfo {
     *zoom: 1;
     float: left;
@@ -290,56 +290,56 @@ body {
     margin-right: 1%;
   }
 
-/* line 276 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 276 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repoInfo:before,
   .repoInfo:after {
     content: '';
     display: table;
   }
 
-/* line 280 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 280 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repoInfo:after {
     clear: both;
   }
 
-/* line 48 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
+/* line 48 : c:\projects\react\node_modules\jeet\stylus\jeet\_grid.styl */
   .repoInfo:last-child {
     margin-right: 0%;
   }
 }
 
-/* line 18 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 18 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="0"],
 .repoInfo[data-shade=1] {
   background-color: #ffdd73;
 }
 
-/* line 20 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 20 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="2"] {
   background-color: #ffe48f;
 }
 
-/* line 22 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 22 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="3"] {
   background-color: #ffebab;
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 24 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="4"] {
   background-color: #fff1c7;
 }
 
-/* line 26 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 26 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="5"] {
   background-color: #fff8e3;
 }
 
-/* line 28 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 28 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo[data-shade="6"] {
   background-color: #fff;
 }
 
-/* line 30 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 30 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo > img {
   width: 4.5em;
   position: absolute;
@@ -349,7 +349,7 @@ body {
   border-bottom-right-radius: 2em;
 }
 
-/* line 37 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 37 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo > h2 {
   margin-top: 0.2em;
   margin-left: 2em;
@@ -358,7 +358,7 @@ body {
   margin-bottom: 0;
 }
 
-/* line 43 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 43 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo > span {
   display: inline-block;
   margin-top: -0.2em;
@@ -371,7 +371,7 @@ body {
   font-family: 'Open Sans';
 }
 
-/* line 53 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 53 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo > ul {
   margin-left: -0.5em;
   padding: 0;
@@ -380,18 +380,18 @@ body {
   color: #111;
 }
 
-/* line 59 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 59 : c:\projects\react\app\styles\components\repoInfo.styl */
 .repoInfo > ul > li {
   padding: 0;
   width: 100%;
   text-align: left;
 }
 
-/* line 71 : c:\projects\react-dev-team\app\styles\components\repoInfo.styl */
+/* line 71 : c:\projects\react\app\styles\components\repoInfo.styl */
 
-/* line 247 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 247 : c:\projects\react\app\styles\components\commit.styl */
 
-/* line 4 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 4 : c:\projects\react\app\styles\components\commit.styl */
 .commit {
   position: absolute;
   box-sizing: border-box;
@@ -415,739 +415,739 @@ body {
           animation-iteration-count: 1;
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(0) {
   -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(1) {
   -webkit-transform: translateY(10%);
       -ms-transform: translateY(10%);
           transform: translateY(10%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(2) {
   -webkit-transform: translateY(120%);
       -ms-transform: translateY(120%);
           transform: translateY(120%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(3) {
   -webkit-transform: translateY(230%);
       -ms-transform: translateY(230%);
           transform: translateY(230%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(4) {
   -webkit-transform: translateY(340%);
       -ms-transform: translateY(340%);
           transform: translateY(340%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(5) {
   -webkit-transform: translateY(450%);
       -ms-transform: translateY(450%);
           transform: translateY(450%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(6) {
   -webkit-transform: translateY(560%);
       -ms-transform: translateY(560%);
           transform: translateY(560%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(7) {
   -webkit-transform: translateY(670%);
       -ms-transform: translateY(670%);
           transform: translateY(670%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(8) {
   -webkit-transform: translateY(780%);
       -ms-transform: translateY(780%);
           transform: translateY(780%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(9) {
   -webkit-transform: translateY(890%);
       -ms-transform: translateY(890%);
           transform: translateY(890%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(10) {
   -webkit-transform: translateY(1000%);
       -ms-transform: translateY(1000%);
           transform: translateY(1000%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(11) {
   -webkit-transform: translateY(1110%);
       -ms-transform: translateY(1110%);
           transform: translateY(1110%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(12) {
   -webkit-transform: translateY(1220%);
       -ms-transform: translateY(1220%);
           transform: translateY(1220%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(13) {
   -webkit-transform: translateY(1330%);
       -ms-transform: translateY(1330%);
           transform: translateY(1330%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(14) {
   -webkit-transform: translateY(1440%);
       -ms-transform: translateY(1440%);
           transform: translateY(1440%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(15) {
   -webkit-transform: translateY(1550%);
       -ms-transform: translateY(1550%);
           transform: translateY(1550%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(16) {
   -webkit-transform: translateY(1660%);
       -ms-transform: translateY(1660%);
           transform: translateY(1660%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(17) {
   -webkit-transform: translateY(1770%);
       -ms-transform: translateY(1770%);
           transform: translateY(1770%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(18) {
   -webkit-transform: translateY(1880%);
       -ms-transform: translateY(1880%);
           transform: translateY(1880%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(19) {
   -webkit-transform: translateY(1990%);
       -ms-transform: translateY(1990%);
           transform: translateY(1990%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(20) {
   -webkit-transform: translateY(2100%);
       -ms-transform: translateY(2100%);
           transform: translateY(2100%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(21) {
   -webkit-transform: translateY(2210%);
       -ms-transform: translateY(2210%);
           transform: translateY(2210%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(22) {
   -webkit-transform: translateY(2320%);
       -ms-transform: translateY(2320%);
           transform: translateY(2320%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(23) {
   -webkit-transform: translateY(2430%);
       -ms-transform: translateY(2430%);
           transform: translateY(2430%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(24) {
   -webkit-transform: translateY(2540%);
       -ms-transform: translateY(2540%);
           transform: translateY(2540%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(25) {
   -webkit-transform: translateY(2650%);
       -ms-transform: translateY(2650%);
           transform: translateY(2650%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(26) {
   -webkit-transform: translateY(2760%);
       -ms-transform: translateY(2760%);
           transform: translateY(2760%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(27) {
   -webkit-transform: translateY(2870%);
       -ms-transform: translateY(2870%);
           transform: translateY(2870%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(28) {
   -webkit-transform: translateY(2980%);
       -ms-transform: translateY(2980%);
           transform: translateY(2980%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(29) {
   -webkit-transform: translateY(3090%);
       -ms-transform: translateY(3090%);
           transform: translateY(3090%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(30) {
   -webkit-transform: translateY(3200%);
       -ms-transform: translateY(3200%);
           transform: translateY(3200%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(31) {
   -webkit-transform: translateY(3310%);
       -ms-transform: translateY(3310%);
           transform: translateY(3310%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(32) {
   -webkit-transform: translateY(3420%);
       -ms-transform: translateY(3420%);
           transform: translateY(3420%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(33) {
   -webkit-transform: translateY(3530%);
       -ms-transform: translateY(3530%);
           transform: translateY(3530%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(34) {
   -webkit-transform: translateY(3640%);
       -ms-transform: translateY(3640%);
           transform: translateY(3640%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(35) {
   -webkit-transform: translateY(3750%);
       -ms-transform: translateY(3750%);
           transform: translateY(3750%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(36) {
   -webkit-transform: translateY(3860%);
       -ms-transform: translateY(3860%);
           transform: translateY(3860%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(37) {
   -webkit-transform: translateY(3970%);
       -ms-transform: translateY(3970%);
           transform: translateY(3970%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(38) {
   -webkit-transform: translateY(4080%);
       -ms-transform: translateY(4080%);
           transform: translateY(4080%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(39) {
   -webkit-transform: translateY(4190%);
       -ms-transform: translateY(4190%);
           transform: translateY(4190%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(40) {
   -webkit-transform: translateY(4300%);
       -ms-transform: translateY(4300%);
           transform: translateY(4300%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(41) {
   -webkit-transform: translateY(4410%);
       -ms-transform: translateY(4410%);
           transform: translateY(4410%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(42) {
   -webkit-transform: translateY(4520%);
       -ms-transform: translateY(4520%);
           transform: translateY(4520%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(43) {
   -webkit-transform: translateY(4630%);
       -ms-transform: translateY(4630%);
           transform: translateY(4630%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(44) {
   -webkit-transform: translateY(4740%);
       -ms-transform: translateY(4740%);
           transform: translateY(4740%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(45) {
   -webkit-transform: translateY(4850%);
       -ms-transform: translateY(4850%);
           transform: translateY(4850%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(46) {
   -webkit-transform: translateY(4960%);
       -ms-transform: translateY(4960%);
           transform: translateY(4960%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(47) {
   -webkit-transform: translateY(5070%);
       -ms-transform: translateY(5070%);
           transform: translateY(5070%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(48) {
   -webkit-transform: translateY(5180%);
       -ms-transform: translateY(5180%);
           transform: translateY(5180%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(49) {
   -webkit-transform: translateY(5290%);
       -ms-transform: translateY(5290%);
           transform: translateY(5290%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(50) {
   -webkit-transform: translateY(5400%);
       -ms-transform: translateY(5400%);
           transform: translateY(5400%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(51) {
   -webkit-transform: translateY(5510%);
       -ms-transform: translateY(5510%);
           transform: translateY(5510%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(52) {
   -webkit-transform: translateY(5620%);
       -ms-transform: translateY(5620%);
           transform: translateY(5620%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(53) {
   -webkit-transform: translateY(5730%);
       -ms-transform: translateY(5730%);
           transform: translateY(5730%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(54) {
   -webkit-transform: translateY(5840%);
       -ms-transform: translateY(5840%);
           transform: translateY(5840%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(55) {
   -webkit-transform: translateY(5950%);
       -ms-transform: translateY(5950%);
           transform: translateY(5950%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(56) {
   -webkit-transform: translateY(6060%);
       -ms-transform: translateY(6060%);
           transform: translateY(6060%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(57) {
   -webkit-transform: translateY(6170%);
       -ms-transform: translateY(6170%);
           transform: translateY(6170%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(58) {
   -webkit-transform: translateY(6280%);
       -ms-transform: translateY(6280%);
           transform: translateY(6280%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(59) {
   -webkit-transform: translateY(6390%);
       -ms-transform: translateY(6390%);
           transform: translateY(6390%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(60) {
   -webkit-transform: translateY(6500%);
       -ms-transform: translateY(6500%);
           transform: translateY(6500%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(61) {
   -webkit-transform: translateY(6610%);
       -ms-transform: translateY(6610%);
           transform: translateY(6610%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(62) {
   -webkit-transform: translateY(6720%);
       -ms-transform: translateY(6720%);
           transform: translateY(6720%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(63) {
   -webkit-transform: translateY(6830%);
       -ms-transform: translateY(6830%);
           transform: translateY(6830%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(64) {
   -webkit-transform: translateY(6940%);
       -ms-transform: translateY(6940%);
           transform: translateY(6940%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(65) {
   -webkit-transform: translateY(7050%);
       -ms-transform: translateY(7050%);
           transform: translateY(7050%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(66) {
   -webkit-transform: translateY(7160%);
       -ms-transform: translateY(7160%);
           transform: translateY(7160%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(67) {
   -webkit-transform: translateY(7270%);
       -ms-transform: translateY(7270%);
           transform: translateY(7270%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(68) {
   -webkit-transform: translateY(7380%);
       -ms-transform: translateY(7380%);
           transform: translateY(7380%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(69) {
   -webkit-transform: translateY(7490%);
       -ms-transform: translateY(7490%);
           transform: translateY(7490%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(70) {
   -webkit-transform: translateY(7600%);
       -ms-transform: translateY(7600%);
           transform: translateY(7600%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(71) {
   -webkit-transform: translateY(7710%);
       -ms-transform: translateY(7710%);
           transform: translateY(7710%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(72) {
   -webkit-transform: translateY(7820%);
       -ms-transform: translateY(7820%);
           transform: translateY(7820%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(73) {
   -webkit-transform: translateY(7930%);
       -ms-transform: translateY(7930%);
           transform: translateY(7930%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(74) {
   -webkit-transform: translateY(8040%);
       -ms-transform: translateY(8040%);
           transform: translateY(8040%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(75) {
   -webkit-transform: translateY(8150%);
       -ms-transform: translateY(8150%);
           transform: translateY(8150%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(76) {
   -webkit-transform: translateY(8260%);
       -ms-transform: translateY(8260%);
           transform: translateY(8260%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(77) {
   -webkit-transform: translateY(8370%);
       -ms-transform: translateY(8370%);
           transform: translateY(8370%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(78) {
   -webkit-transform: translateY(8480%);
       -ms-transform: translateY(8480%);
           transform: translateY(8480%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(79) {
   -webkit-transform: translateY(8590%);
       -ms-transform: translateY(8590%);
           transform: translateY(8590%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(80) {
   -webkit-transform: translateY(8700%);
       -ms-transform: translateY(8700%);
           transform: translateY(8700%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(81) {
   -webkit-transform: translateY(8810%);
       -ms-transform: translateY(8810%);
           transform: translateY(8810%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(82) {
   -webkit-transform: translateY(8920%);
       -ms-transform: translateY(8920%);
           transform: translateY(8920%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(83) {
   -webkit-transform: translateY(9030%);
       -ms-transform: translateY(9030%);
           transform: translateY(9030%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(84) {
   -webkit-transform: translateY(9140%);
       -ms-transform: translateY(9140%);
           transform: translateY(9140%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(85) {
   -webkit-transform: translateY(9250%);
       -ms-transform: translateY(9250%);
           transform: translateY(9250%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(86) {
   -webkit-transform: translateY(9360%);
       -ms-transform: translateY(9360%);
           transform: translateY(9360%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(87) {
   -webkit-transform: translateY(9470%);
       -ms-transform: translateY(9470%);
           transform: translateY(9470%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(88) {
   -webkit-transform: translateY(9580%);
       -ms-transform: translateY(9580%);
           transform: translateY(9580%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(89) {
   -webkit-transform: translateY(9690%);
       -ms-transform: translateY(9690%);
           transform: translateY(9690%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(90) {
   -webkit-transform: translateY(9800%);
       -ms-transform: translateY(9800%);
           transform: translateY(9800%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(91) {
   -webkit-transform: translateY(9910%);
       -ms-transform: translateY(9910%);
           transform: translateY(9910%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(92) {
   -webkit-transform: translateY(10020%);
       -ms-transform: translateY(10020%);
           transform: translateY(10020%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(93) {
   -webkit-transform: translateY(10130%);
       -ms-transform: translateY(10130%);
           transform: translateY(10130%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(94) {
   -webkit-transform: translateY(10240%);
       -ms-transform: translateY(10240%);
           transform: translateY(10240%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(95) {
   -webkit-transform: translateY(10350%);
       -ms-transform: translateY(10350%);
           transform: translateY(10350%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(96) {
   -webkit-transform: translateY(10460%);
       -ms-transform: translateY(10460%);
           transform: translateY(10460%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(97) {
   -webkit-transform: translateY(10570%);
       -ms-transform: translateY(10570%);
           transform: translateY(10570%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(98) {
   -webkit-transform: translateY(10680%);
       -ms-transform: translateY(10680%);
           transform: translateY(10680%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(99) {
   -webkit-transform: translateY(10790%);
       -ms-transform: translateY(10790%);
           transform: translateY(10790%);
 }
 
-/* line 24 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 24 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(100) {
   -webkit-transform: translateY(10900%);
       -ms-transform: translateY(10900%);
           transform: translateY(10900%);
 }
 
-/* line 28 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 28 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(2) {
   background-color: #ffdd73;
 }
 
-/* line 30 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 30 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(3) {
   background-color: #ffe48f;
 }
 
-/* line 32 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 32 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(4) {
   background-color: #ffebab;
 }
 
-/* line 34 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 34 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(5) {
   background-color: #fff1c7;
 }
 
-/* line 36 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 36 : c:\projects\react\app\styles\components\commit.styl */
 .commit:nth-of-type(6) {
   background-color: #fff8e3;
 }
 
-/* line 39 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 39 : c:\projects\react\app\styles\components\commit.styl */
 .commit > strong {
   display: block;
   float: left;
@@ -1159,7 +1159,7 @@ body {
   font-weight: normal;
 }
 
-/* line 48 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 48 : c:\projects\react\app\styles\components\commit.styl */
 .commit > span {
   z-index: 1;
   position: absolute;
@@ -1169,7 +1169,7 @@ body {
   font-size: 0.8em;
 }
 
-/* line 55 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 55 : c:\projects\react\app\styles\components\commit.styl */
 .commit:after {
   z-index: 0;
   content: '';
@@ -1181,43 +1181,43 @@ body {
   height: 2.5em;
 }
 
-/* line 67 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 67 : c:\projects\react\app\styles\components\commit.styl */
 
-/* line 67 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 67 : c:\projects\react\app\styles\components\commit.styl */
 @-webkit-keyframes fadeIn {
 
-/* line 68 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 68 : c:\projects\react\app\styles\components\commit.styl */
   from {
     opacity: 0;
   }
 
-/* line 70 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 70 : c:\projects\react\app\styles\components\commit.styl */
   to {
     opacity: 1;
   }
 }
 
-/* line 67 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 67 : c:\projects\react\app\styles\components\commit.styl */
 
-/* line 67 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 67 : c:\projects\react\app\styles\components\commit.styl */
 @keyframes fadeIn {
 
-/* line 68 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 68 : c:\projects\react\app\styles\components\commit.styl */
   from {
     opacity: 0;
   }
 
-/* line 70 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 70 : c:\projects\react\app\styles\components\commit.styl */
   to {
     opacity: 1;
   }
 }
 
-/* line 29 : c:\projects\react-dev-team\app\styles\components\commit.styl */
+/* line 29 : c:\projects\react\app\styles\components\commit.styl */
 
-/* line 71 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 71 : c:\projects\react\app\styles\components\user.styl */
 
-/* line 1 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 1 : c:\projects\react\app\styles\components\user.styl */
 .user {
   display: block;
   width: 100%;
@@ -1226,7 +1226,7 @@ body {
 /* Contexts */
 }
 
-/* line 6 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 6 : c:\projects\react\app\styles\components\user.styl */
 .user img {
   float: left;
   width: 2.5em;
@@ -1235,7 +1235,7 @@ body {
   border: 0.2em solid #002a38;
 }
 
-/* line 12 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 12 : c:\projects\react\app\styles\components\user.styl */
 .user strong {
   float: left;
   display: inline-block;
@@ -1245,14 +1245,14 @@ body {
   line-height: 1.5em;
 }
 
-/* line 21 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 21 : c:\projects\react\app\styles\components\user.styl */
 .repoTopCommitter .user {
   width: 100%;
   text-align: center;
   color: #fff;
 }
 
-/* line 25 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 25 : c:\projects\react\app\styles\components\user.styl */
 .repoTopCommitter .user img,
 .repoTopCommitter .user strong {
   float: none;
@@ -1261,11 +1261,11 @@ body {
   padding: 0;
 }
 
-/* line 17 : c:\projects\react-dev-team\app\styles\components\user.styl */
+/* line 1 : c:\projects\react\app\styles\components\user.styl */
 
-/* line 29 : c:\projects\react-dev-team\app\styles\components\footer.styl */
+/* line 1 : c:\projects\react\app\styles\components\footer.styl */
 
-/* line 1 : c:\projects\react-dev-team\app\styles\components\footer.styl */
+/* line 1 : c:\projects\react\app\styles\components\footer.styl */
 .footer {
   z-index: 2;
   position: fixed;
@@ -1274,118 +1274,26 @@ body {
   width: 100%;
   background-color: rgba(241,251,255,0.95);
   font-size: 1.25em;
-  font-family: 'Open Sans';
 }
 
-/* line 10 : c:\projects\react-dev-team\app\styles\components\footer.styl */
+/* line 9 : c:\projects\react\app\styles\components\footer.styl */
 .footer .widgetToggle,
 .footer label {
   float: left;
   margin: 1.5em;
 }
 
-/* line 13 : c:\projects\react-dev-team\app\styles\components\footer.styl */
+/* line 12 : c:\projects\react\app\styles\components\footer.styl */
 .footer .widgetToggle:hover,
 .footer label:hover {
   cursor: pointer;
 }
 
-/* line 15 : c:\projects\react-dev-team\app\styles\components\footer.styl */
+/* line 14 : c:\projects\react\app\styles\components\footer.styl */
 .footer .widgetToggle i,
 .footer label i {
   display: inline-block;
   margin-right: 0.5em;
-}
-
-/* line 1 : c:\projects\react-dev-team\app\styles\components\footer.styl */
-
-/* line 1 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-
-/* line 1 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widgets {
-  position: fixed;
-  width: 100%;
-  bottom: 3.5em;
-  left: 0;
-}
-
-/* line 9 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget {
-  *zoom: 1;
-  float: left;
-  clear: none;
-  text-align: inherit;
-  width: 48.5%;
-  margin-left: 0%;
-  margin-right: 3%;
-  min-height: 4em;
-  padding: 0.25em 1em;
-  margin-left: 0;
-  box-sizing: border-box;
-  background-color: rgba(0,28,115,0.95);
-  color: #fff;
-  -webkit-transition: margin-left 0.7s ease-in-out;
-          transition: margin-left 0.7s ease-in-out;
-}
-
-/* line 276 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
-.widget:before,
-.widget:after {
-  content: '';
-  display: table;
-}
-
-/* line 280 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
-.widget:after {
-  clear: both;
-}
-
-/* line 48 : c:\projects\react-dev-team\node_modules\jeet\stylus\jeet\_grid.styl */
-.widget:last-child {
-  margin-right: 0%;
-}
-
-/* line 18 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget h2 {
-  font-family: 'Open Sans';
-  text-transform: uppercase;
-}
-
-/* line 21 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget--hidden {
-  margin-left: -50%;
-}
-
-/* line 23 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-
-/* line 24 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget--topCommitters__entry {
-  position: relative;
-  float: left;
-  display: inline-block;
-  width: 50%;
-  padding-left: 3.5em;
-  box-sizing: border-box;
-  min-height: 6em;
-}
-
-/* line 32 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget--topCommitters__entry > label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 2.5em;
-}
-
-/* line 37 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget--topCommitters__entry > label:before {
-  content: '#';
-}
-
-/* line 39 : c:\projects\react-dev-team\app\styles\components\widgets.styl */
-.widget--topCommitters__entry > span {
-  line-height: 2.6em;
-  padding-left: 1em;
 }
 
 /*# sourceMappingURL=core.css.map */
