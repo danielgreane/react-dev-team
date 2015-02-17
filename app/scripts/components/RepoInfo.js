@@ -10,23 +10,6 @@ var RepoInfo = React.createClass({
     };
   },
 
-  componentDidMount: function() {
-    window.addEventListener('scroll', this._adjustColor, false);
-  },
-
-  componentWillUnmount: function() {
-    window.removeEventListener('scroll', this._adjustColor, false);
-  },
-
-  _adjustColor: function(e) {
-    var node = this.refs.repoInfo.getDOMNode();
-    var shade = Math.round(window.scrollY / node.offsetHeight);
-    shade = Math.min(6, shade);
-    this.setState({
-      shade: shade
-    });
-  },
-
   render: function() {
     return (
       <div className="repoInfo" data-shade={ this.state.shade } ref="repoInfo">
@@ -45,13 +28,19 @@ var RepoInfo = React.createClass({
           <li>
             <Icon type="user" /> &nbsp;
             <strong>
-              { this.props.top_committer.data.login }
+              { 'top_committer' in this.props ? this.props.top_committer.data.login : '?' }
             </strong>&nbsp;
-            leading with { this.props.top_committer.count } commits
+            leading with &nbsp;
+            { 'top_committer' in this.props ? this.props.top_committer.count : '?' } 
+            &nbsp;commits
           </li>
           <li>
             <Icon type="bolt" /> &nbsp;
-            velocity of <strong>XX</strong> commits / hour
+            average of&nbsp;  
+            <strong>
+              { 'velocity' in this.props ? this.props.velocity : '?' } mins
+            </strong>&nbsp;
+            between commits
           </li>
         </ul>
       </div>

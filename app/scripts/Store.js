@@ -1,14 +1,14 @@
 var flux = require('flux-react');
+var _ = require('underscore');
+var $ = require('zepto-browserify').$;
 var actions = require('./actions');
 var events = require('./events');
 var config = require('./config');
+var GitHubTransformer = require('./GitHubTransformer');
 
-var _ = require('underscore');
-var $ = require('zepto-browserify').$;
 
 var REPOS_ENDPOINT = 'https://api.github.com/repos/';
-
-module.exports = flux.createStore({
+var Store = {
 
   /* Field: Sample data structure to build */
   repos: [],
@@ -21,7 +21,27 @@ module.exports = flux.createStore({
   actions: [
     actions.init,
     actions.fetchRepos,
-    actions.refreshCommits
+    actions.refreshCommits,
+    actions.toggleWidget
+  ],
+
+  /* Widget states */
+  widgets: [
+    {
+      id: 'topCommitters',
+      label: 'Top Committers',
+      visible: true
+    },
+    {
+      id: 'topRepos',
+      label: 'Top Repositories',
+      visible: false
+    },
+    {
+      id: 'liveCommitStream',
+      label: 'Live Commit Stream',
+      visible: false
+    }
   ],
 
   _gitHubService: null,
@@ -38,8 +58,8 @@ module.exports = flux.createStore({
     /* Tests / Demo to illustrate functionality
     setTimeout(this._addTestRepo.bind(this), 1500);
     setTimeout(this._addTestCommits.bind(this), 3000);
-    setTimeout(this._doTestReverse.bind(this), 4500);
-    setTimeout(this._orderReposByLastCommit.bind(this), 6000);
+    //setTimeout(this._doTestReverse.bind(this), 4500);
+    //setTimeout(this._orderReposByLastCommit.bind(this), 6000);
     */
 
     //console.log(this._dataAccessComponent.name);
@@ -48,7 +68,6 @@ module.exports = flux.createStore({
   /* Action: Fetch through intiial list of repos  */
   fetchRepos: function() {
     // TODO: fetch repos from Github service and fill with commits
-
     var fullNames = ['facebook/presto', 'facebook/flux', 'guardian/frontend'];
     _.each(fullNames, fullName => {
       _gitHubService.getRepo(fullName).then(repo => {
@@ -60,9 +79,8 @@ module.exports = flux.createStore({
           this.repos.push(repo);
 
           // todo: delegate this design to another party
-          this._calculateTopCommitters();
-          this._calculateTopRepoCommitters();
-
+          this.calculateTopCommitters();
+          this.calculateTopRepoCommitters();
           this.emit(events.REPOS_REFRESHED);
         })
       });
@@ -73,6 +91,15 @@ module.exports = flux.createStore({
   refreshCommits: function() {
     // TODO: fetch updated commits from Github service
     this.emit(events.REPOS_REFRESHED); 
+  },
+
+  toggleWidget: function(id, checked) {
+    var i = -1;
+    var widget = _.find(this.widgets, (w, _i) => (w.id === id ? i=_i : i = i) );
+    if (i > -1) {
+      this.widgets[ i ].visible = checked;
+      this.emit(events.WIDGETS_TOGGLED);
+    }
   },
 
   /* Helper: Re-orders commits by most recent and notifies elements  */
@@ -87,79 +114,6 @@ module.exports = flux.createStore({
       return 0;
     });
     this.emit(events.REPOS_REFRESHED);
-  },
-
-  _calculateTopRepoCommitters: function() {
-    var authors;
-
-    // 1. Count all authors
-    _.each(this.repos, function(repo) {
-      authors = [];
-
-      _.each(repo.commits, function(commit) {
-        if ('author' in commit && commit.author) {
-          if (commit.author.id in authors) {
-            authors[ commit.author.id ].count++;
-          } else {
-            authors[ commit.author.id ] = {
-              count: 1,
-              data: commit.author
-            };
-          }
-        }
-      }.bind(this));
-
-      // 3. Sort authors by the count we just gave it
-      authors.sort(function(a, b) {
-        if (a.count > b.count)
-          return -1;
-        if (a.count < b.count)
-          return 1;
-        return 0;
-      });
-
-      repo.top_committer = authors[0];
-
-    }.bind(this));
-    
-  },
-
-  /* Helper: Calculate top-committer list & broadcase */
-  _calculateTopCommitters: function() {
-    var authors = {};
-
-    // 1. Count all authors
-    _.each(this.repos, function(repo) {
-      _.each(repo.commits, function(commit) {
-        if ('author' in commit && commit.author) {
-          if (commit.author.id in authors) {
-            authors[ commit.author.id ].count++;
-          } else {
-            authors[ commit.author.id ] = {
-              count: 1,
-              data: commit.author
-            };
-          }
-        }
-      }.bind(this));
-    }.bind(this));
-
-    // 2. Attach totals to the global store variable
-    _.each(authors, function(author) {
-      this.authors.push(author);
-    }.bind(this));
-
-    // 3. Sort authors by the count we just gave it
-    this.authors.sort(function(a, b) {
-      if (a.count > b.count)
-        return -1;
-      if (a.count < b.count)
-        return 1;
-      return 0;
-    });
-
-    // 4. Broadcast the update to components
-    this.emit(events.TOP_COMMITTERS_REFRESHED);
   },
 
   /* Demo: Builds the objects from dummy data stored in json */
@@ -177,8 +131,6 @@ module.exports = flux.createStore({
   _addTestRepo: function() {
     this.repos.push( require('../data/repos/zhouzi/theaterjs') )
     this.repos[2].commits = require( '../data/repos/zhouzi/theaterjs/commits' );
-    this._calculateTopCommitters();
-    this._calculateTopRepoCommitters();
     this.emit(events.REPOS_REFRESHED);
   },
 
@@ -186,8 +138,9 @@ module.exports = flux.createStore({
   _addTestCommits: function() {
     this.repos[0].commits.unshift( require( '../data/repos/zhouzi/theaterjs/commits' )[1] );
     this.repos[0].commits[0].commit.author.date = new Date();
-    this._calculateTopCommitters();
-    this._calculateTopRepoCommitters();
+    this.calculateTopCommitters();
+    this.calculateTopRepoCommitters();
+    this.calculateRepoVelocities();
     this.emit(events.REPOS_REFRESHED);
   },
 
@@ -216,8 +169,19 @@ module.exports = flux.createStore({
       return (repo ? repo.commits : undefined);
     },
 
-    getTopComitters: function() {
-      return this.comitters;
+    getTopCommitters: function() {
+      return this.authors;
+    },
+
+    getWidget: function(id) {
+      var widgets = _.where(this.widgets, {id: id});
+      return (widgets.length ? widgets[0] : null);
+    },
+
+    getWidgets: function() {
+      return this.widgets;
     }
   }  
-});
+};
+
+module.exports = flux.createStore(_.extend(Store, GitHubTransformer));

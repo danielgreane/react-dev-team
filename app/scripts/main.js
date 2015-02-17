@@ -21,5 +21,4 @@ if(useFakeData){
 }
 
 actions.init(service);
-
 React.render(<App/>, document.body);

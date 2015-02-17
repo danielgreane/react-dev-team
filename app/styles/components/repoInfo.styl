@@ -5,28 +5,14 @@
 	col(1/4, gutter:1)
 	+above(100em)
 		col(1/5, gutter:1)
-	background-color $color1
+	background-color transparent
 	padding-left 1em
 	min-height 10.45em
 	overflow hidden
-	border 0.15em solid #111
-	border-radius 2em
 	border-bottom-right-radius 0em
 	border-bottom-left-radius 0em
 	border-bottom 0
 	transition background-color 0.5s linear
-	&[data-shade="0"], &[data-shade=1]
-		background-color $color1
-	&[data-shade="2"]
-		background-color lighten($color1, 20%)
-	&[data-shade="3"]
-		background-color lighten($color1, 40%)
-	&[data-shade="4"]
-		background-color lighten($color1, 60%)
-	&[data-shade="5"]
-		background-color lighten($color1, 80%)
-	&[data-shade="6"]
-		background-color white
 	> img
 		width 4.5em
 		position absolute
@@ -51,11 +37,12 @@
 		color darken($color4, 80%)
 		font-family 'Open Sans'
 	> ul
-		margin-left -0.5em
+		margin 0.75em 0 0 -0.5em
 		padding 0
 		font-family 'Open Sans'
 		font-size 0.9em
 		color #111
+		list-style-type none
 		> li
 			padding 0
 			width 100%
