@@ -31,7 +31,7 @@ var Store = {
     {
       id: 'topCommitters',
       label: 'Top Committers',
-      visible: true
+      visible: false
     },
     {
       id: 'topRepos',
@@ -77,7 +77,7 @@ var Store = {
 
   toggleWidget: function(id, checked) {
     var i = -1;
-    var widget = _.find(this.widgets, (w, _i) => (w.id === id ? i=_i : i = i) );
+    var widget = _.find(this.widgets, (w, _i) => (w.id === id ? i=_i : null) );
     if (i > -1) {
       this.widgets[ i ].visible = checked;
       this.emit(events.WIDGETS_TOGGLED);

@@ -9,25 +9,22 @@ var TopCommitters = React.createClass({
 
   getInitialState: function() {
     return {
-      visible: true,
       committers: []
     };
   },
 
   getDefaultProps: function() {
     return { 
-      number: 3,
-      name: ''
+      number: 3
     };
   },
 
   componentDidMount: function() {
     Store.on(events.TOP_COMMITTERS_REFRESHED, this._setCommitters);
-    Store.on(events.WIDGETS_TOGGLED, this._setVisibility);
   },
 
   componentWillUnmount: function() {
-    
+    Store.offAll(events.TOP_COMMITTERS_REFRESHED);
   },
 
   _setCommitters: function() {
@@ -36,15 +33,9 @@ var TopCommitters = React.createClass({
     });
   }, 
 
-  _setVisibility: function(e) {
-    this.setState({
-      visible: Store.getWidget(this.props.name).visible
-    });
-  },
-
   render: function() {
     return (
-      <div className={'widget widget--topCommitters ' + (this.state.visible ? 'widget--visible' : 'widget--hidden')}>
+      <div className="widget--topCommitters">
         <h2>
           <Icon type="star" />&nbsp;
           Top Committers

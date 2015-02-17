@@ -4,11 +4,12 @@ var Commit = require('./Commit');
 var Repo = require('./Repo');
 var Header = require('./Header');
 var Footer = require('./Footer');
-var TopCommitters = require('./widgets/TopCommitters');
+var WidgetArea = require('./widgetArea');
 
 var actions = require('./../actions');
 var events = require('../events');
 var Store = require('./../Store');
+
 
 var $ = require('zepto-browserify').$;
 
@@ -43,11 +44,7 @@ var App = React.createClass({
 				{this.state.repos.map(function(repo) {
         	return <Repo key={repo.id} { ...repo } />;
       	})}
-
-				<div className="widgets">
-					<TopCommitters name="topCommitters" number="4" />
-				</div>
-
+				<Widgets />
       	<Footer />
       </div>
 		);
