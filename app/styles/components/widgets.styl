@@ -1,25 +1,25 @@
 .widgets
 	position fixed
 	width 100%
-	bottom 3.5em
+	bottom 5.4em
 	left 0
-	
 	
 
 .widget
-	col(1/2)
+	col(4/10)
 	min-height 4em
 	padding 0.25em 1em
-	margin-left 0
-	box-sizing border-box
+	margin-left -7.5%
+	box-sizing padding-box
 	background-color rgba(darken(complement($color1), 50), 0.95)
+	padding-left 10%
 	color white
-	transition margin-left 0.7s ease-in-out
+	transition margin-left 0.7s cubic-bezier(0.680, -0.550, 0.265, 1.550);
 	h2
 		font-family 'Open Sans'
 		text-transform uppercase
 	&--hidden
-		margin-left -50%
+		margin-left -60%
 	&--topCommitters
 		&__entry
 			position relative
@@ -37,6 +37,9 @@
 				&:before
 					content '#'
 			> span
-				line-height 2.6em
+				display block
+				float left
+				width 70%
+				line-height 0.6em
 				padding-left 1em
 				

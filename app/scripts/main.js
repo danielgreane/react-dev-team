@@ -10,6 +10,4 @@ flux.debug();
 
 GitHubService.init({BASE_GITHUB_URL:'https://api.github.com/repos/'});
 
-Store.setDataAccessComponent({ name: 'HELLO!' });
-
 React.render(<App/>, document.body);

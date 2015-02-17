@@ -6,11 +6,13 @@ var Header = React.createClass({
 
   getInitialState: function() {
     return {
-      className: '--flat'
+      className: '--flat',
+      shade: 0
     };
   },
 
   componentDidMount: function() {
+    window.addEventListener('scroll', this._adjustColor, false);
     window.addEventListener('scroll', this._adjustBg, false);
   },
 
@@ -29,11 +31,24 @@ var Header = React.createClass({
     });
   },
 
+  _adjustColor: function(e) {
+    var node = this.refs.header.getDOMNode();
+    var shade = Math.round(window.scrollY / node.offsetHeight);
+    shade = Math.min(6, shade);
+    this.setState({
+      shade: shade
+    });
+  },
+
+
   render: function() {
     return (
-      <header className={ 'header header' + this.state.className }>
-      </header>
-    );
+      <header 
+        ref="header" 
+        className={ 'header header' + this.state.className }
+        data-shade={ this.state.shade }
+        />
+      );
   },
 
 
