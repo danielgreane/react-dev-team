@@ -42,7 +42,7 @@ var TopRepos = React.createClass({
           return (
               <div key={ repo.id } className="widget--topRepos__entry">
                 <label>{i + 1}</label>
-                <User avatar_url={ repo.owner.avatar_url } login={ repo.full_name } /> 
+                <User avatar_url={ repo.owner.avatar_url } login={ repo.name } /> 
                 <span>({repo.commits.length} commits)</span>
               </div>
             )
