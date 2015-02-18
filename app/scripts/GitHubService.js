@@ -19,7 +19,8 @@ var GitHubService = function(){
 		return getJSON(url) ;
 	};
 
-	var getJSON = url => {
+	var getJSON = baseUrl => {
+		var url = baseUrl + '?access_token=' + _config.access_token;
 		return new Promise((res, rej) => {
 			return $.getJSON(url, e => res(e));
 		});

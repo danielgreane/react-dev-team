@@ -53,7 +53,7 @@ var Store = {
     //this._calculateTopRepoCommitters();
     _gitHubService = gitHubService;
     this.fetchRepos();
-
+    this.interval = setInterval(this.refreshCommits.bind(this), 1500);
 
     /* Tests / Demo to illustrate functionality
     setTimeout(this._addTestRepo.bind(this), 1500);
@@ -68,8 +68,8 @@ var Store = {
   /* Action: Fetch through intiial list of repos  */
   fetchRepos: function() {
     // TODO: fetch repos from Github service and fill with commits
-    var fullNames = ['facebook/presto', 'facebook/flux', 'guardian/frontend'];
-    _.each(fullNames, fullName => {
+    this.repos = [];
+    _.each(config.repos, fullName => {
       _gitHubService.getRepo(fullName).then(repo => {
         _gitHubService.getCommits(fullName).then(commits => {
           repo.commits = commits;
@@ -81,6 +81,7 @@ var Store = {
           // todo: delegate this design to another party
           this.calculateTopCommitters();
           this.calculateTopRepoCommitters();
+          this.calculateRepoVelocities();
           this.emit(events.REPOS_REFRESHED);
         })
       });
@@ -89,8 +90,15 @@ var Store = {
 
   /* Action: Refreshes list of all repos */
   refreshCommits: function() {
-    // TODO: fetch updated commits from Github service
-    this.emit(events.REPOS_REFRESHED); 
+    _.each(this.repos, repo => {
+      _gitHubService.getCommits(repo.full_name).then(commits => {
+        repo.commits = commits;
+        this.calculateTopCommitters();
+        this.calculateTopRepoCommitters();
+        this.calculateRepoVelocities();
+        this.emit(events.REPOS_REFRESHED); 
+      });
+    });
   },
 
   toggleWidget: function(id, checked) {

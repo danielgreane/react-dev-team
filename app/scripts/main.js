@@ -5,20 +5,28 @@ var actions = require('./actions.js');
 var flux = require('flux-react');
 var Store = require('./Store');
 var GitHubService = require('./GitHubService');
+var GithubAuth = require('./GithubAuth');
+var config = require('./config');
 var FakeGitHubService = require('./FakeGitHubService');
-
-flux.debug();
-
-var useFakeData = false;
 var service = null;
 
-if(useFakeData){
-	FakeGitHubService.init({BASE_GITHUB_URL:'https://api.github.com/repos/'});
-	service = FakeGitHubService;
-} else {
-	GitHubService.init({BASE_GITHUB_URL:'https://api.github.com/repos/'});
-	service = GitHubService;
-}
 
-actions.init(service);
-React.render(<App/>, document.body);
+GithubAuth.init(bootstrap);
+
+function bootstrap(token) { // past this point only if auth token present
+	config.access_token = token;
+	console.log(token, ' is the token!');
+	flux.debug();
+
+	if(config.useFakeData){
+		FakeGitHubService.init(config);
+		service = FakeGitHubService;
+	} else {
+		GitHubService.init(config);
+		service = GitHubService;
+	}
+
+	actions.init(service);
+	React.render(<App/>, document.body);
+
+}
