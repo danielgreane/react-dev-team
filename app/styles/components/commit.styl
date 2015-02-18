@@ -20,6 +20,9 @@ _getListHeight(a,b)
 	animation fadeIn 1s ease-in forwards
 	animation-iteration-count 1
 	
+	&:last-child
+		margin-bottom 30em
+	
 	for i in (0..100)
 		&:nth-of-type({i})
 			transform translateY(_getListHeight(i - 1, 110))
