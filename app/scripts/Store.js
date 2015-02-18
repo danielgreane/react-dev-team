@@ -6,8 +6,6 @@ var events = require('./events');
 var config = require('./config');
 var GitHubTransformer = require('./GitHubTransformer');
 
-
-var REPOS_ENDPOINT = 'https://api.github.com/repos/';
 var Store = {
 
   /* Field: Sample data structure to build */
@@ -48,21 +46,9 @@ var Store = {
 
   /* Action: Start the store */
   init: function(gitHubService) {
-    //this._buildTestRepos();
-    //this._calculateTopCommitters();
-    //this._calculateTopRepoCommitters();
     _gitHubService = gitHubService;
     this.fetchRepos();
-    this.interval = setInterval(this.refreshCommits.bind(this), 1500);
-
-    /* Tests / Demo to illustrate functionality
-    setTimeout(this._addTestRepo.bind(this), 1500);
-    setTimeout(this._addTestCommits.bind(this), 3000);
-    //setTimeout(this._doTestReverse.bind(this), 4500);
-    //setTimeout(this._orderReposByLastCommit.bind(this), 6000);
-    */
-
-    //console.log(this._dataAccessComponent.name);
+    this.interval = setInterval(this.refreshCommits.bind(this), config.poll_interval);
   },
 
   /* Action: Fetch through intiial list of repos  */
