@@ -24,7 +24,14 @@ var Footer = React.createClass({
       <footer className="footer">
         <label>Show Widgets: </label>
         {this.props.widgets.map(function(w, k) {
-          return <WidgetToggle label={ w.label }  initiallyChecked={ w.visible }  id ={ w.id }  />
+          return (
+            <WidgetToggle 
+              key={ k } 
+              label={ w.label }  
+              initiallyChecked={ w.visible }  
+              id ={ w.id }  
+            />
+          )
         })}
       </footer>
     );

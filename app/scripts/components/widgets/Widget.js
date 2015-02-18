@@ -22,7 +22,7 @@ var TopRepos = React.createClass({
   },
 
   componentDidMount: function() {
-    Store.on(events.WIDGETS_TOGGLED, this._setVisibility.bind(this));
+    Store.on(events.WIDGETS_TOGGLED, this._setVisibility);
   },
 
   componentWillUnmount: function() {
