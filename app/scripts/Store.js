@@ -76,6 +76,7 @@ var Store = {
   refreshCommits: function() {
     _.each(this.repos, repo => {
       _gitHubService.getCommits(repo.full_name).then(commits => {
+        repo.commits = commits;
         this._transformData();
         this.emit(events.REPOS_REFRESHED); 
       });
