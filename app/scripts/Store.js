@@ -65,9 +65,7 @@ var Store = {
           this.repos.push(repo);
 
           // todo: delegate this design to another party
-          this.calculateTopCommitters();
-          this.calculateTopRepoCommitters();
-          this.calculateRepoVelocities();
+          this._transformData();
           this.emit(events.REPOS_REFRESHED);
         })
       });
@@ -78,10 +76,7 @@ var Store = {
   refreshCommits: function() {
     _.each(this.repos, repo => {
       _gitHubService.getCommits(repo.full_name).then(commits => {
-        repo.commits = commits;
-        this.calculateTopCommitters();
-        this.calculateTopRepoCommitters();
-        this.calculateRepoVelocities();
+        this._transformData();
         this.emit(events.REPOS_REFRESHED); 
       });
     });
@@ -94,6 +89,14 @@ var Store = {
       this.widgets[ i ].visible = checked;
       this.emit(events.WIDGETS_TOGGLED);
     }
+  },
+
+  _transformData: function() {
+    this.modifyCommitDateRange(2);
+
+    this.calculateTopCommitters();
+    this.calculateTopRepoCommitters();
+    this.calculateRepoVelocities();
   },
 
   /* Helper: Re-orders commits by most recent and notifies elements  */

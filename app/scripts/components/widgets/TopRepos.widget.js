@@ -14,6 +14,12 @@ var TopRepos = React.createClass({
     };
   },
 
+  getDefaultProps: function() {
+    return { 
+      number: 3
+    };
+  },
+
 
   componentDidMount: function() {
     Store.on(events.COMMITS_REFRESHED, this._setRepos);
@@ -26,7 +32,7 @@ var TopRepos = React.createClass({
 
   _setRepos: function() {
     this.setState({
-      repos: _.sortBy(Store.getRepos(), r => r.commits.length)
+      repos: _.sortBy(Store.getRepos(), r => r.commits.length);
     });
   }, 
 
