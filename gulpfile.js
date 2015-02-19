@@ -183,6 +183,25 @@ gulp.task('default', function () {
 
 });
 
+/* Task: demos */
+gulp.task('demo', function() {
+  browserifyTask({
+    development: true,
+    src: ['./app/scripts/demos/demo.js'],
+    dest: './build/demos'
+  });
+  
+  stylusTask({
+    development: true,
+    src: ['./app/styles/core.styl'],
+    watch: ['./app/styles/**/*.styl'],
+    dest: './build/demos'
+  });
+
+  liveserver.start(8080, 'build', true);
+});
+
+
 
 /* Task: test */
 gulp.task('deploy', function () {
