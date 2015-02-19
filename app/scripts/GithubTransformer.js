@@ -12,9 +12,10 @@ module.exports = (instance ? GithubTransformer : instance = GithubTransformer())
 function GithubTransformer() {
 
 	return {
-		calculateTopRepoCommitters: calculateTopRepoCommitters,
-		calculateTopCommitters: calculateTopCommitters,
-		calculateRepoVelocities: calculateRepoVelocities
+    calculateTopRepoCommitters: calculateTopRepoCommitters,
+    calculateTopCommitters: calculateTopCommitters,
+    calculateRepoVelocities: calculateRepoVelocities,
+    modifyCommitDateRange: modifyCommitDateRange
 	};
 
 	/**
@@ -125,10 +126,15 @@ function GithubTransformer() {
 
   		// 4. Calculate velocity & save
   		repo.velocity = date.difference(d2, d1, 'minutes');
-  	});
+  	}); 	
+  }
 
-
-  	
+  /**
+   * Removes commits authored after a given number of days
+   * TODO
+   */
+  function modifyCommitDateRange(days) {
+      
   }
 
 };
