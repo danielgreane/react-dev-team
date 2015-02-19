@@ -61,7 +61,7 @@ var commit_props = {
 	}
 }
 
-React.render(<Commit {...commit_props} />, document.body);
+//React.render(<Commit {...commit_props} />, document.body);
 
 
 
@@ -73,4 +73,4 @@ var Repo = require('./../components/Repo');
 var repo_props = require('./../../data/repos/facebook/flux');
 repo_props.commits = require('./../../data/repos/facebook/flux/commits');
 
-//React.render(<Repo {...repo_props} />, document.body);
+React.render(<Repo {...repo_props} />, document.body);
