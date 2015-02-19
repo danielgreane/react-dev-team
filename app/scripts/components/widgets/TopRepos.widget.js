@@ -32,7 +32,7 @@ var TopRepos = React.createClass({
 
   _setRepos: function() {
     this.setState({
-      repos: _.sortBy(Store.getRepos(), r => r.commits.length);
+      repos: _.sortBy(Store.getRepos(), r => r.commits.length)
     });
   }, 
 
