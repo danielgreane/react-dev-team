@@ -14,7 +14,7 @@ var props = {
 	type: 'text',
 	value: 'HELLO WORLD!'
 };
-//React.render(<input {...props} />, document.body );
+React.render(<input {...props} />, document.body );
 
 
 
@@ -73,4 +73,4 @@ var Repo = require('./../components/Repo');
 var repo_props = require('./../../data/repos/facebook/flux');
 repo_props.commits = require('./../../data/repos/facebook/flux/commits');
 
-React.render(<Repo {...repo_props} />, document.body);
+//React.render(<Repo {...repo_props} />, document.body);
